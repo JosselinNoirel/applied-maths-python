@@ -1,0 +1,9 @@
+.sphinx-codeautolink-a {
+  border-bottom: 1px dotted currentColor;
+}
+
+.language-switch {
+  text-align: right;
+  font-size: 0.9rem;
+}
+

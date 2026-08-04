@@ -1,0 +1,6 @@
+sphinx>=8.2,<9
+myst-parser>=4,<5
+pydata-sphinx-theme>=0.16,<0.21
+sphinx-codeautolink>=0.18,<0.19
+numpy>=2,<3
+
