@@ -41,32 +41,32 @@ Généralités sur la syntaxe Python :
 :hidden:
 :maxdepth: 2
 
-topics/jupyter
-topics/markdown
-topics/python-syntax
-topics/variables
-topics/user-functions
-topics/python-objects
-topics/numpy
-topics/visualisation
-topics/common-functions
-topics/boolean-conditions
-topics/control-flow
-topics/common-errors
-topics/systems-of-equations
-topics/integration
-topics/ordinary-differential-equations
-topics/interpolation
-reference/numpy-linspace
-reference/python-builtins
-reference/numpy-array-creation
-reference/numpy-mathematics
-reference/numpy-meshgrid
-reference/numpy-linalg-solve
-reference/matplotlib-plotting
-reference/matplotlib-annotation
-reference/matplotlib-vector-fields
-reference/scipy-integrate-quad
-reference/scipy-solve-ivp
-reference/scipy-interpolation
+Jupyter <topics/jupyter>
+Markdown <topics/markdown>
+Syntaxe Python <topics/python-syntax>
+Variables <topics/variables>
+Fonctions <topics/user-functions>
+Objets <topics/python-objects>
+NumPy <topics/numpy>
+Visualisation <topics/visualisation>
+Fonctions usuelles <topics/common-functions>
+Booléens <topics/boolean-conditions>
+Contrôle <topics/control-flow>
+Erreurs <topics/common-errors>
+Systèmes linéaires <topics/systems-of-equations>
+Intégration <topics/integration>
+EDO <topics/ordinary-differential-equations>
+Interpolation <topics/interpolation>
+linspace <reference/numpy-linspace>
+Fonctions Python <reference/python-builtins>
+Création de tableaux <reference/numpy-array-creation>
+Maths NumPy <reference/numpy-mathematics>
+meshgrid <reference/numpy-meshgrid>
+linalg.solve <reference/numpy-linalg-solve>
+Tracés <reference/matplotlib-plotting>
+Annotations <reference/matplotlib-annotation>
+Champs de vecteurs <reference/matplotlib-vector-fields>
+quad <reference/scipy-integrate-quad>
+solve_ivp <reference/scipy-solve-ivp>
+Interpolation 1D <reference/scipy-interpolation>
 ```
