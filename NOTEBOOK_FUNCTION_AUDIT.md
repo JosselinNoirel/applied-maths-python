@@ -17,12 +17,14 @@ aliases were excluded from the documentation selection.
 
 ### Python
 
-`range`, `print`, `abs`, `len`
+`range`, `print`, `abs`, `len`, `min`, `max`, `enumerate`
 
 ### NumPy
 
 `linspace`, `array`, `zeros`, `empty`, `arange`, `exp`, `log`, `sqrt`, `sin`,
-`cos`, `abs`, `sum`, `meshgrid`, `linalg.solve`
+`cos`, `abs`, `min`, `max`, `sum`, `mean`, `std`, `isclose`, `allclose`,
+`interp`, `polyfit`, `meshgrid`, `linalg.solve`, `linalg.det`, `fft.fft`,
+`fft.fftfreq`, `fft.ifft`
 
 ### Matplotlib
 
@@ -31,7 +33,8 @@ aliases were excluded from the documentation selection.
 
 ### SciPy
 
-`integrate.quad`, `integrate.solve_ivp`, `interpolate.interp1d`
+`integrate.quad`, `integrate.solve_ivp`, `interpolate.interp1d`,
+`stats.linregress`
 
 `interp1d` is documented as a legacy interface with current replacements.
 Old calls to `scipy.integrate.trapz` and `scipy.integrate.simps` are documented as
@@ -44,16 +47,15 @@ more advanced, redundant with selected functions, or outside the core course.
 
 ### Python built-ins
 
-`max`, `min`, `enumerate`, `sum`, `int`, `str`, `all`, `list`
+`sum`, `int`, `str`, `all`, `list`
 
 ### NumPy
 
-`polyfit`, `arccos`, `tan`, `arcsin`, `random.normal`, `mean`, `copy`,
-`allclose`, `random.seed`, `round`, `where`, `logical_and`, `arctan`,
+`arccos`, `tan`, `arcsin`, `random.normal`, `copy`, `random.seed`, `round`,
+`where`, `logical_and`, `arctan`,
 `random.exponential`, `linalg.matrix_rank`, `argmin`, `linalg.pinv`, `isinf`,
-`isclose`, `dot`, `apply_along_axis`, `insert`, `vectorize`, `interp`,
-`linalg.det`, `prod`, `ones`, `logical_not`, `fft.fft`, `fft.fftfreq`,
-`fft.ifft`, `linalg.eig`, and miscellaneous random helpers.
+`dot`, `apply_along_axis`, `insert`, `vectorize`, `prod`, `ones`,
+`logical_not`, `linalg.eig`, and miscellaneous random helpers.
 
 ### Matplotlib
 
@@ -63,8 +65,8 @@ helpers and interactive widget classes.
 
 ### SciPy
 
-`stats.linregress`, `special.gamma`, `special.sici`, plus the superseded
-`integrate.trapz` and `integrate.simps` calls noted above.
+`special.gamma`, `special.sici`, plus the superseded `integrate.trapz` and
+`integrate.simps` calls noted above.
 
 ### Course-external or advanced libraries
 
@@ -74,8 +76,8 @@ core Python–NumPy–Matplotlib–SciPy reference.
 
 ## Suggested next expansion
 
-The most useful next group would be `max`, `min`, `enumerate`, `numpy.mean`,
-`numpy.isclose`, `numpy.allclose`, `numpy.polyfit`, `numpy.interp`,
-`numpy.linalg.det`, `matplotlib.pyplot.savefig`, logarithmic axes, and the three
-NumPy FFT functions.
-
+The most useful next group would be Python's `sum`, `numpy.random.normal`,
+`numpy.copy`, `numpy.where`, `numpy.linalg.matrix_rank`, `numpy.linalg.pinv`,
+`numpy.linalg.eig`, `matplotlib.pyplot.savefig`, logarithmic axes, histograms
+and grids, followed by `scipy.special.gamma` and `scipy.special.sici` where the
+course material needs them.

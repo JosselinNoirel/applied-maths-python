@@ -31,5 +31,16 @@ for n in range(5):
     carres.append(n**2)
 ```
 
+Lorsque la position et la valeur sont toutes deux nécessaires, utilisez
+`enumerate` plutôt qu'un compteur mis à jour manuellement :
+
+```python
+valeurs = [2.0, 3.5, 4.1]
+for indice, valeur in enumerate(valeurs):
+    print(indice, valeur)
+```
+
+Voir la [référence de `range` et `enumerate`](../reference/python-builtins.md).
+
 Utilisez `while` lorsque la répétition continue jusqu'à ce qu'une condition
 change. Vérifiez que le corps de la boucle peut rendre cette condition fausse.

@@ -89,3 +89,9 @@ Trigonometric functions expect angles in radians.
 - [Mathematical functions: `exp`, `log`, `sqrt`, `sin`, `cos`, `abs`, `sum`](../reference/numpy-mathematics.md)
 - [Coordinate grids with `meshgrid`](../reference/numpy-meshgrid.md)
 - [Solving a linear system with `numpy.linalg.solve`](../reference/numpy-linalg-solve.md)
+- [Statistics: `min`, `max`, `mean`, `std`](../reference/numpy-statistics.md)
+- [Comparison and interpolation: `isclose`, `allclose`, `interp`](../reference/numpy-comparison-interpolation.md)
+
+Use `np.isclose` for one or several element-wise floating-point comparisons and
+`np.allclose` when a single Boolean should summarise an entire array comparison.
+Use `np.interp` for straightforward one-dimensional linear interpolation.

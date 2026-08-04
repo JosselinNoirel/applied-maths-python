@@ -66,5 +66,39 @@ n = len(valeurs)
 Pour un tableau NumPy multidimensionnel, `len(a)` ne donne que la taille du
 premier axe ; consultez `a.shape` pour toutes les dimensions.
 
-Voir les [fonctions intégrées officielles de Python](https://docs.python.org/fr/3/library/functions.html).
+## `min` et `max`
 
+```{py:function} min(iterable)
+
+Renvoie le plus petit élément d'un itérable.
+```
+
+```{py:function} max(iterable)
+
+Renvoie le plus grand élément d'un itérable.
+```
+
+```python
+temperatures = [12.4, 9.8, 14.1, 11.3]
+minimum = min(temperatures)
+maximum = max(temperatures)
+```
+
+Pour un tableau NumPy, préférez `numpy.min` et `numpy.max`, en particulier pour
+réduire les valeurs suivant un axe choisi.
+
+## `enumerate`
+
+```{py:function} enumerate(iterable, start=0)
+
+Parcourt des couples `(indice, valeur)` sans mettre à jour manuellement un
+compteur.
+```
+
+```python
+valeurs = [2.0, 3.5, 4.1]
+for indice, valeur in enumerate(valeurs):
+    print(indice, valeur)
+```
+
+Voir les [fonctions intégrées officielles de Python](https://docs.python.org/fr/3/library/functions.html).

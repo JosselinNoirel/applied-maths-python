@@ -27,5 +27,20 @@ residu = np.linalg.norm(A @ x - b)
 Ne calculez pas `np.linalg.inv(A) @ b` : résoudre directement le système est
 plus clair et généralement plus précis.
 
-Voir la [référence officielle NumPy](https://numpy.org/doc/stable/reference/generated/numpy.linalg.solve.html).
+## Déterminant
 
+```{py:function} numpy.linalg.det(a)
+
+Calcule le déterminant d'une matrice carrée ou d'un ensemble de matrices carrées.
+```
+
+```python
+determinant = np.linalg.det(A)
+```
+
+Un déterminant nul signifie qu'une matrice carrée est singulière en arithmétique
+exacte. En calcul flottant, n'utilisez pas `det(A) == 0` comme test numérique de
+singularité : examinez plutôt le rang, le conditionnement et le comportement du
+solveur.
+
+Voir la [référence officielle NumPy](https://numpy.org/doc/stable/reference/generated/numpy.linalg.solve.html).

@@ -29,6 +29,8 @@ General information about Python syntax:
 - [Boolean conditions and comparisons](topics/boolean-conditions.md)
 - [Control structures: `for`, `while` and conditions](topics/control-flow.md)
 - [Common errors](topics/common-errors.md)
+- [Basic mathematical operations](topics/basic-mathematics.md)
+- [Basic statistics](topics/basic-statistics.md)
 
 ## Applied mathematics
 
@@ -36,6 +38,7 @@ General information about Python syntax:
 - [Numerical integration](topics/integration.md)
 - [Ordinary differential equations](topics/ordinary-differential-equations.md)
 - [Interpolation](topics/interpolation.md)
+- [Fourier transforms and the FFT](topics/fourier-transform.md)
 
 ```{toctree}
 :hidden:
@@ -53,10 +56,13 @@ Common functions <topics/common-functions>
 Booleans <topics/boolean-conditions>
 Control flow <topics/control-flow>
 Errors <topics/common-errors>
+Basic maths <topics/basic-mathematics>
+Statistics <topics/basic-statistics>
 Linear systems <topics/systems-of-equations>
 Integration <topics/integration>
 ODEs <topics/ordinary-differential-equations>
 Interpolation <topics/interpolation>
+Fourier / FFT <topics/fourier-transform>
 linspace <reference/numpy-linspace>
 Python built-ins <reference/python-builtins>
 Array creation <reference/numpy-array-creation>
@@ -69,4 +75,7 @@ Vector fields <reference/matplotlib-vector-fields>
 quad <reference/scipy-integrate-quad>
 solve_ivp <reference/scipy-solve-ivp>
 1D interpolation <reference/scipy-interpolation>
+NumPy statistics <reference/numpy-statistics>
+Comparison <reference/numpy-comparison-interpolation>
+Regression <reference/linear-regression>
 ```

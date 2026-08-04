@@ -66,5 +66,38 @@ n = len(values)
 For a multidimensional NumPy array, `len(a)` is only the size of its first axis;
 inspect `a.shape` for all dimensions.
 
-See the [official Python built-in functions](https://docs.python.org/3/library/functions.html).
+## `min` and `max`
 
+```{py:function} min(iterable)
+
+Return the smallest item in an iterable.
+```
+
+```{py:function} max(iterable)
+
+Return the largest item in an iterable.
+```
+
+```python
+temperatures = [12.4, 9.8, 14.1, 11.3]
+lowest = min(temperatures)
+highest = max(temperatures)
+```
+
+For NumPy arrays, prefer `numpy.min` and `numpy.max`, particularly when reducing
+along a selected axis.
+
+## `enumerate`
+
+```{py:function} enumerate(iterable, start=0)
+
+Iterate over `(index, value)` pairs without manually updating a counter.
+```
+
+```python
+values = [2.0, 3.5, 4.1]
+for index, value in enumerate(values):
+    print(index, value)
+```
+
+See the [official Python built-in functions](https://docs.python.org/3/library/functions.html).

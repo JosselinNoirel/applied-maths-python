@@ -9,7 +9,8 @@ extrapolation beyond the sampled interval.
 
 The notebooks use [`scipy.interpolate.interp1d`](../reference/scipy-interpolation.md),
 which is now a legacy interface. For new linear interpolation, prefer
-`numpy.interp`; use `scipy.interpolate.make_interp_spline` when a spline is
+{py:func}`numpy.interp`;
+use `scipy.interpolate.make_interp_spline` when a spline is
 required.
 
 ```python
@@ -21,4 +22,3 @@ y_new = np.interp(1.5, x, y)
 ```
 
 Always inspect the sampling density and the behaviour expected between points.
-

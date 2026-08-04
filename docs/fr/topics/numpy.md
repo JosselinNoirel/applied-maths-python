@@ -89,3 +89,9 @@ Les fonctions trigonométriques utilisent des angles exprimés en radians.
 - [Fonctions mathématiques : `exp`, `log`, `sqrt`, `sin`, `cos`, `abs`, `sum`](../reference/numpy-mathematics.md)
 - [Grilles de coordonnées avec `meshgrid`](../reference/numpy-meshgrid.md)
 - [Résoudre un système avec `numpy.linalg.solve`](../reference/numpy-linalg-solve.md)
+- [Statistiques : `min`, `max`, `mean`, `std`](../reference/numpy-statistics.md)
+- [Comparaison et interpolation : `isclose`, `allclose`, `interp`](../reference/numpy-comparison-interpolation.md)
+
+Utilisez `np.isclose` pour comparer un ou plusieurs flottants terme à terme et
+`np.allclose` lorsqu'un seul booléen doit résumer la comparaison de deux tableaux.
+Utilisez `np.interp` pour une interpolation linéaire unidimensionnelle simple.

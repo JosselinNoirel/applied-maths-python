@@ -27,5 +27,19 @@ residual = np.linalg.norm(A @ x - b)
 Do not calculate `np.linalg.inv(A) @ b`; solving the system directly is clearer
 and normally more accurate.
 
-See the [official NumPy reference](https://numpy.org/doc/stable/reference/generated/numpy.linalg.solve.html).
+## Determinant
 
+```{py:function} numpy.linalg.det(a)
+
+Compute the determinant of a square matrix or a stack of square matrices.
+```
+
+```python
+determinant = np.linalg.det(A)
+```
+
+A zero determinant means that a square matrix is singular in exact arithmetic.
+For floating-point calculations, do not use `det(A) == 0` as a numerical
+singularity test: inspect rank, conditioning and solver behaviour instead.
+
+See the [official NumPy reference](https://numpy.org/doc/stable/reference/generated/numpy.linalg.solve.html).

@@ -20,3 +20,6 @@ Always verify the dimensions and calculate the residual $Ax-b$. A very small
 residual confirms that the computed vector satisfies the numerical system; it
 does not by itself guarantee that the model or data are correct.
 
+The determinant `np.linalg.det(A)` characterises invertibility in exact linear
+algebra, but a tiny floating-point determinant is not a reliable conditioning
+measure. See [`numpy.linalg.solve` and `numpy.linalg.det`](../reference/numpy-linalg-solve.md).

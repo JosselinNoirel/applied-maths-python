@@ -20,3 +20,6 @@ Vérifiez toujours les dimensions et calculez le résidu $Ax-b$. Un résidu trè
 petit confirme que le vecteur calculé satisfait le système numérique ; il ne
 garantit pas à lui seul la validité du modèle ou des données.
 
+Le déterminant `np.linalg.det(A)` caractérise l'inversibilité en algèbre linéaire
+exacte, mais un très petit déterminant flottant ne mesure pas fiablement le
+conditionnement. Voir [`numpy.linalg.solve` et `numpy.linalg.det`](../reference/numpy-linalg-solve.md).
