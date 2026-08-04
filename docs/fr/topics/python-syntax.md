@@ -55,8 +55,7 @@ x = np.linspace(start=0, stop=10, num=21)
 ```
 
 Les arguments optionnels possèdent une valeur par défaut. Par exemple,
-`np.linspace(0, 10)` utilise par défaut `num=50` et `endpoint=True`.
+{funcindex}`np.linspace`(`0, 10`) utilise par défaut `num=50` et `endpoint=True`.
 
 Voir aussi les pages [Variables](variables.md), [Fonctions définies par
 l'utilisateur](user-functions.md) et [Fonctions usuelles](common-functions.md).
-

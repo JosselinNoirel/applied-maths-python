@@ -34,7 +34,7 @@ $k=k+1$: it first evaluates the right-hand side and then replaces the value of
 Short names such as `i`, `j`, `k`, `x` and `y` suit indices and temporary
 mathematical quantities. For a value retained for longer, prefer a descriptive
 name such as `number_of_points` or `initial_velocity`. Avoid reusing the name of
-a function such as `sum`, `min` or `max`.
+a function such as {funcindex}`sum`, {funcindex}`min` or {funcindex}`max`.
 
 ## Local scope
 

@@ -4,8 +4,8 @@
 <p class="language-switch"><a href="../../fr/topics/jupyter.html">Français</a></p>
 ```
 
-A Jupyter notebook is made of cells. A **code cell** runs Python; a **Markdown
-cell** contains explanations and mathematics. Run the selected cell with
+A Jupyter notebook is made of cells. A {concept}`code cell` runs Python; a
+{concept}`Markdown cell` contains explanations and mathematics. Run the selected cell with
 {kbd}`Shift`+{kbd}`Enter`.
 
 Execution order matters. The number beside a code cell records when it ran, not
@@ -27,7 +27,7 @@ array([0.  , 0.25, 0.5 , 0.75, 1.  ])
 
 ## Command mode and edit mode
 
-**Edit mode** changes the cell contents. **Command mode** acts on the whole
+{concept}`Edit mode` changes the cell contents. {concept}`Command mode` acts on the whole
 cell. {kbd}`Enter` enters edit mode and {kbd}`Esc` returns to command mode.
 
 Useful shortcuts in command mode:

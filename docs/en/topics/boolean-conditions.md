@@ -21,7 +21,7 @@ example, `x > 0` asks whether the value of `x` is strictly positive.
 Do not confuse assignment `=` with comparison `==`.
 
 Rounding errors make exact floating-point equality fragile. Prefer
-`np.isclose(a, b)`:
+{funcindex}`np.isclose`(`a, b`):
 
 ```python
 import numpy as np
@@ -50,4 +50,3 @@ not_inside = not inside
 ```
 
 For NumPy arrays, use `&`, `|` and `~`, with parentheses around each comparison.
-

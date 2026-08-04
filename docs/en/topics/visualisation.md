@@ -55,8 +55,8 @@ and scale.
 
 ## Curves, points and scales
 
-- `ax.plot(x, y)` joins values with segments;
-- `ax.scatter(x, y)` displays separate points;
-- `ax.set_xscale("log")` or `ax.set_yscale("log")` uses a logarithmic scale when
+- {funcindex}`ax.plot`(`x, y`) joins values with segments;
+- {funcindex}`ax.scatter`(`x, y`) displays separate points;
+- {funcindex}`ax.set_xscale`(`"log"`) or {funcindex}`ax.set_yscale`(`"log"`) uses a logarithmic scale when
   values are strictly positive;
-- the `label` argument and `ax.legend()` construct a legend.
+- the `label` argument and {funcindex}`ax.legend`() construct a legend.

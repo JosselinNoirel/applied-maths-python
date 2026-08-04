@@ -70,7 +70,7 @@ représenteraient sinon la même position.
 
 ## Erreur classique
 
-Le troisième argument est un **nombre de points**, et non un pas :
+Le troisième argument est un {concept}`nombre de points`, et non un pas :
 
 ```python
 np.linspace(0, 1, 0.1)  # incorrect : 0.1 n'est pas un nombre de points
@@ -79,4 +79,3 @@ np.linspace(0, 1, 11)   # 11 points séparés par un pas de 0.1
 
 Pour l'API de référence et les options avancées, consultez la
 [documentation officielle de NumPy](https://numpy.org/doc/stable/reference/generated/numpy.linspace.html).
-

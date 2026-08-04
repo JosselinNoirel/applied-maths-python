@@ -4,8 +4,8 @@
 <p class="language-switch"><a href="../../en/topics/jupyter.html">English</a></p>
 ```
 
-Un notebook Jupyter est composé de cellules. Une **cellule de code** exécute du
-Python ; une **cellule Markdown** contient des explications et des formules.
+Un notebook Jupyter est composé de cellules. Une {concept}`cellule de code` exécute du
+Python ; une {concept}`cellule Markdown` contient des explications et des formules.
 Exécutez la cellule sélectionnée avec {kbd}`Maj`+{kbd}`Entrée`.
 
 L'ordre d'exécution est important. Le nombre affiché à côté d'une cellule
@@ -28,7 +28,7 @@ array([0.  , 0.25, 0.5 , 0.75, 1.  ])
 
 ## Mode commande et mode édition
 
-Le **mode édition** modifie le contenu de la cellule. Le **mode commande** agit
+Le {concept}`mode édition` modifie le contenu de la cellule. Le {concept}`mode commande` agit
 sur la cellule entière. {kbd}`Entrée` passe en mode édition et {kbd}`Échap`
 revient au mode commande.
 

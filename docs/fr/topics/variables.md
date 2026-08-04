@@ -35,7 +35,7 @@ $k=k+1$ : elle calcule d'abord le membre de droite, puis remplace la valeur de
 Des noms courts comme `i`, `j`, `k`, `x` et `y` conviennent aux indices et aux
 quantités mathématiques éphémères. Pour une valeur conservée plus longtemps,
 préférez un nom descriptif comme `nombre_points` ou `vitesse_initiale`. Évitez de
-réutiliser le nom d'une fonction comme `sum`, `min` ou `max`.
+réutiliser le nom d'une fonction comme {funcindex}`sum`, {funcindex}`min` ou {funcindex}`max`.
 
 ## Portée locale
 

@@ -19,7 +19,7 @@ values[3]  # IndexError: valid indices are 0, 1 and 2
 ```
 
 Reduce a failing calculation to the smallest example that still produces the
-error, and inspect intermediate values with `type()` and, for arrays, `.shape`.
+error, and inspect intermediate values with {funcindex}`type`() and, for arrays, `.shape`.
 
 ## Undefined variable
 

@@ -53,9 +53,8 @@ import numpy as np
 x = np.linspace(start=0, stop=10, num=21)
 ```
 
-Optional arguments have default values. For example, `np.linspace(0, 10)` uses
+Optional arguments have default values. For example, {funcindex}`np.linspace`(`0, 10`) uses
 `num=50` and `endpoint=True` by default.
 
 See also [Variables](variables.md), [User-defined functions](user-functions.md)
 and [Common functions](common-functions.md).
-

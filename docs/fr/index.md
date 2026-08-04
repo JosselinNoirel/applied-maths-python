@@ -1,7 +1,7 @@
 # Maths appliquées avec Python
 
 ```{raw} html
-<p class="language-switch"><a href="../en/">English</a></p>
+<p class="language-switch"><a href="genindex.html">Index</a> · <a href="../en/">English</a></p>
 ```
 
 Ce site est un aide-mémoire pratique pour les outils Python employés dans un

@@ -19,7 +19,7 @@ valeurs[3]  # IndexError : les indices valides sont 0, 1 et 2
 ```
 
 Réduisez un calcul défaillant au plus petit exemple qui reproduit l'erreur, puis
-inspectez les résultats intermédiaires avec `type()` et, pour les tableaux,
+inspectez les résultats intermédiaires avec {funcindex}`type`() et, pour les tableaux,
 `.shape`.
 
 ## Variable non définie

@@ -56,8 +56,8 @@ compte du domaine de définition, des singularités et de l'échelle.
 
 ## Courbes, points et échelles
 
-- `ax.plot(x, y)` relie les valeurs par des segments ;
-- `ax.scatter(x, y)` affiche un nuage de points ;
-- `ax.set_xscale("log")` ou `ax.set_yscale("log")` utilise une échelle
+- {funcindex}`ax.plot`(`x, y`) relie les valeurs par des segments ;
+- {funcindex}`ax.scatter`(`x, y`) affiche un nuage de points ;
+- {funcindex}`ax.set_xscale`(`"log"`) ou {funcindex}`ax.set_yscale`(`"log"`) utilise une échelle
   logarithmique lorsque les valeurs sont strictement positives ;
-- l'argument `label` et `ax.legend()` construisent une légende.
+- l'argument `label` et {funcindex}`ax.legend`() construisent une légende.

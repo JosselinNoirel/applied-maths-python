@@ -14,7 +14,7 @@ line separates two paragraphs.
 ## Section
 ### Subsection
 
-*Italic* text and **bold** text.
+*Italic* text and {concept}`bold` text.
 
 - Unnumbered item
 - Another item
@@ -53,4 +53,3 @@ Ordinary spaces are generally ignored in mathematical mode.
 | $\int_a^b f(x)\,dx$ | `\int_a^b f(x)\,dx` |
 
 Mathematical commands use a backslash `\`.
-

@@ -11,14 +11,14 @@ values. The conventional import is:
 import numpy as np
 ```
 
-The prefix `np.` identifies the NumPy namespace: `np.sqrt`, for example, is
+The prefix `np.` identifies the NumPy namespace: {funcindex}`np.sqrt`, for example, is
 NumPy's square-root function.
 
 ## Creating arrays
 
 ### Regular grid
 
-[`np.linspace`](../reference/numpy-linspace.md) creates a chosen number of evenly
+[{funcindex}`np.linspace`](../reference/numpy-linspace.md) creates a chosen number of evenly
 spaced points between two endpoints:
 
 ```python
@@ -27,7 +27,7 @@ x = np.linspace(-2, 3, 101)
 
 ### Integer sequence or fixed step
 
-`np.arange(start, stop, step)` uses a fixed step and excludes `stop`:
+{funcindex}`np.arange`(`start, stop, step`) uses a fixed step and excludes `stop`:
 
 ```python
 indices = np.arange(0, 10, 2)
@@ -45,7 +45,7 @@ ones = np.ones(5)
 data = np.array([-3.71, 1.43, -2.49, 7.21])
 ```
 
-Do not use the values in `np.empty` before replacing them.
+Do not use the values in {funcindex}`np.empty` before replacing them.
 
 ## Element-by-element calculation
 
@@ -73,13 +73,12 @@ variance = np.var(data)
 
 | Mathematics | NumPy |
 |---|---|
-| $\sqrt{x}$ | `np.sqrt(x)` |
-| $\exp(x)$ | `np.exp(x)` |
-| $\log(x)$ | `np.log(x)` |
-| $\log_{10}(x)$ | `np.log10(x)` |
-| $\sin(x)$, $\cos(x)$ | `np.sin(x)`, `np.cos(x)` |
-| $\lvert x\rvert$ | `np.abs(x)` |
-| rounding | `np.round(x)` |
+| $\sqrt{x}$ | {funcindex}`np.sqrt`(`x`) |
+| $\exp(x)$ | {funcindex}`np.exp`(`x`) |
+| $\log(x)$ | {funcindex}`np.log`(`x`) |
+| $\log_{10}(x)$ | {funcindex}`np.log10`(`x`) |
+| $\sin(x)$, $\cos(x)$ | {funcindex}`np.sin`(`x`), {funcindex}`np.cos`(`x`) |
+| $\lvert x\rvert$ | {funcindex}`np.abs`(`x`) |
+| rounding | {funcindex}`np.round`(`x`) |
 
 Trigonometric functions expect angles in radians.
-

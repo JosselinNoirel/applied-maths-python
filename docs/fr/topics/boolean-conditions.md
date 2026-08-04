@@ -22,7 +22,7 @@ positive.
 Il ne faut pas confondre l'affectation `=` et la comparaison `==`.
 
 Les erreurs d'arrondi rendent l'égalité exacte des flottants fragile. Préférez
-`np.isclose(a, b)` :
+{funcindex}`np.isclose`(`a, b`) :
 
 ```python
 import numpy as np
@@ -52,4 +52,3 @@ not_inside = not inside
 
 Pour les tableaux NumPy, utilisez `&`, `|` et `~` avec une paire de parenthèses
 autour de chaque comparaison.
-

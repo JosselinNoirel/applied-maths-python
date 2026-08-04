@@ -11,14 +11,14 @@ toutes leurs valeurs. L'import conventionnel est :
 import numpy as np
 ```
 
-Le préfixe `np.` désigne l'espace de noms de NumPy : `np.sqrt`, par exemple, est
+Le préfixe `np.` désigne l'espace de noms de NumPy : {funcindex}`np.sqrt`, par exemple, est
 la fonction racine carrée de NumPy.
 
 ## Générer des tableaux
 
 ### Grille régulière
 
-[`np.linspace`](../reference/numpy-linspace.md) crée un nombre choisi de points
+[{funcindex}`np.linspace`](../reference/numpy-linspace.md) crée un nombre choisi de points
 régulièrement espacés entre deux bornes :
 
 ```python
@@ -27,7 +27,7 @@ x = np.linspace(-2, 3, 101)
 
 ### Suite d'entiers ou pas fixé
 
-`np.arange(start, stop, step)` utilise un pas fixé et exclut la borne `stop` :
+{funcindex}`np.arange`(`start, stop, step`) utilise un pas fixé et exclut la borne `stop` :
 
 ```python
 indices = np.arange(0, 10, 2)
@@ -45,7 +45,7 @@ ones = np.ones(5)        # cinq uns
 data = np.array([-3.71, 1.43, -2.49, 7.21])
 ```
 
-N'utilisez les valeurs de `np.empty` qu'après les avoir remplacées.
+N'utilisez les valeurs de {funcindex}`np.empty` qu'après les avoir remplacées.
 
 ## Calcul terme à terme
 
@@ -73,13 +73,12 @@ variance = np.var(data)
 
 | Mathématiques | NumPy |
 |---|---|
-| $\sqrt{x}$ | `np.sqrt(x)` |
-| $\exp(x)$ | `np.exp(x)` |
-| $\log(x)$ | `np.log(x)` |
-| $\log_{10}(x)$ | `np.log10(x)` |
-| $\sin(x)$, $\cos(x)$ | `np.sin(x)`, `np.cos(x)` |
-| $\lvert x\rvert$ | `np.abs(x)` |
-| arrondi | `np.round(x)` |
+| $\sqrt{x}$ | {funcindex}`np.sqrt`(`x`) |
+| $\exp(x)$ | {funcindex}`np.exp`(`x`) |
+| $\log(x)$ | {funcindex}`np.log`(`x`) |
+| $\log_{10}(x)$ | {funcindex}`np.log10`(`x`) |
+| $\sin(x)$, $\cos(x)$ | {funcindex}`np.sin`(`x`), {funcindex}`np.cos`(`x`) |
+| $\lvert x\rvert$ | {funcindex}`np.abs`(`x`) |
+| arrondi | {funcindex}`np.round`(`x`) |
 
 Les fonctions trigonométriques utilisent des angles exprimés en radians.
-

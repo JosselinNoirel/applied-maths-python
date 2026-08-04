@@ -14,7 +14,7 @@ formules. Une ligne blanche sépare deux paragraphes.
 ## Section
 ### Sous-section
 
-Texte *italique* et texte **gras**.
+Texte *italique* et texte {concept}`gras`.
 
 - Élément non numéroté
 - Autre élément
@@ -55,4 +55,3 @@ la virgule avec `3{,}1415`.
 | $\int_a^b f(x)\,dx$ | `\int_a^b f(x)\,dx` |
 
 Les commandes mathématiques utilisent une barre oblique inverse `\`.
-

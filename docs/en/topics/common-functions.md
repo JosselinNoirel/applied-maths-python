@@ -14,7 +14,7 @@ import numpy as np
 
 ## Construct an evenly spaced interval
 
-[`numpy.linspace`](../reference/numpy-linspace.md) constructs a chosen number of
+[{funcindex}`numpy.linspace`](../reference/numpy-linspace.md) constructs a chosen number of
 evenly spaced values between two endpoints.
 
 ```python
@@ -24,22 +24,22 @@ x = np.linspace(-1, 1, 5)
 ```
 
 Here `x` is `array([-1. , -0.5, 0. , 0.5, 1. ])`. See the complete
-[`numpy.linspace` reference](../reference/numpy-linspace.md) for endpoint rules,
+[{funcindex}`numpy.linspace` reference](../reference/numpy-linspace.md) for endpoint rules,
 return values, examples and common mistakes.
 
 ## Choosing a function
 
 Prefer a function that expresses the mathematical intention directly. For
-example, use `np.linspace(a, b, n)` when the number of sample points matters. Use
-`np.arange(start, stop, step)` when the increment matters instead.
+example, use {funcindex}`np.linspace`(`a, b, n`) when the number of sample points matters. Use
+{funcindex}`np.arange`(`start, stop, step`) when the increment matters instead.
 
 ## Fundamental Python functions
 
-- `len(x)` gives the number of elements;
-- `type(x)` reports the object's type;
-- `abs(x)` calculates an absolute value;
-- `min(x)` and `max(x)` give extreme values;
-- `round(x)` rounds a value.
+- {funcindex}`len`(`x`) gives the number of elements;
+- {funcindex}`type`(`x`) reports the object's type;
+- {funcindex}`abs`(`x`) calculates an absolute value;
+- {funcindex}`min`(`x`) and {funcindex}`max`(`x`) give extreme values;
+- {funcindex}`round`(`x`) rounds a value.
 
 ## Importing a library
 

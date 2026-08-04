@@ -47,5 +47,5 @@ def positive_sum(values):
     return total
 ```
 
-`total` and `value` are local. Calling `positive_sum([9, -5, 5, 6])` returns
+`total` and `value` are local. Calling {funcindex}`positive_sum`(`[9, -5, 5, 6]`) returns
 `20.0`.

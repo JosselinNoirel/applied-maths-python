@@ -47,5 +47,5 @@ def somme_positive(valeurs):
     return total
 ```
 
-`total` et `valeur` sont locales. L'appel `somme_positive([9, -5, 5, 6])`
+`total` et `valeur` sont locales. L'appel {funcindex}`somme_positive`(`[9, -5, 5, 6]`)
 renvoie `20.0`.

@@ -14,7 +14,7 @@ import numpy as np
 
 ## Construire un intervalle régulièrement discrétisé
 
-[`numpy.linspace`](../reference/numpy-linspace.md) construit un nombre choisi de
+[{funcindex}`numpy.linspace`](../reference/numpy-linspace.md) construit un nombre choisi de
 valeurs régulièrement espacées entre deux bornes.
 
 ```python
@@ -24,22 +24,22 @@ x = np.linspace(-1, 1, 5)
 ```
 
 Ici, `x` vaut `array([-1. , -0.5, 0. , 0.5, 1. ])`. Consultez la
-[fiche complète de `numpy.linspace`](../reference/numpy-linspace.md) pour les
+[fiche complète de {funcindex}`numpy.linspace`](../reference/numpy-linspace.md) pour les
 règles sur les bornes, la valeur renvoyée, les exemples et les erreurs courantes.
 
 ## Choisir une fonction
 
 Préférez une fonction qui exprime directement l'intention mathématique. Utilisez
-par exemple `np.linspace(a, b, n)` lorsque le nombre de points importe, et
-`np.arange(debut, fin, pas)` lorsque c'est l'incrément qui importe.
+par exemple {funcindex}`np.linspace`(`a, b, n`) lorsque le nombre de points importe, et
+{funcindex}`np.arange`(`debut, fin, pas`) lorsque c'est l'incrément qui importe.
 
 ## Fonctions Python fondamentales
 
-- `len(x)` donne le nombre d'éléments ;
-- `type(x)` indique le type de l'objet ;
-- `abs(x)` calcule une valeur absolue ;
-- `min(x)` et `max(x)` donnent les valeurs extrêmes ;
-- `round(x)` arrondit une valeur.
+- {funcindex}`len`(`x`) donne le nombre d'éléments ;
+- {funcindex}`type`(`x`) indique le type de l'objet ;
+- {funcindex}`abs`(`x`) calcule une valeur absolue ;
+- {funcindex}`min`(`x`) et {funcindex}`max`(`x`) donnent les valeurs extrêmes ;
+- {funcindex}`round`(`x`) arrondit une valeur.
 
 ## Importer une bibliothèque
 

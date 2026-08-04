@@ -67,7 +67,7 @@ same location.
 
 ## Common mistake
 
-The third argument is a **number of points**, not a step size:
+The third argument is a {concept}`number of points`, not a step size:
 
 ```python
 np.linspace(0, 1, 0.1)  # incorrect: 0.1 is not a number of points
@@ -76,4 +76,3 @@ np.linspace(0, 1, 11)   # 11 points separated by 0.1
 
 For the authoritative API and advanced options, see the
 [official NumPy documentation](https://numpy.org/doc/stable/reference/generated/numpy.linspace.html).
-

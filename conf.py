@@ -3,6 +3,10 @@
 from __future__ import annotations
 
 import os
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 project = "Applied Maths with Python"
 author = "Josselin Noirel"
@@ -13,6 +17,7 @@ language = os.environ.get("DOC_LANGUAGE", "en")
 extensions = [
     "myst_parser",
     "sphinx_codeautolink",
+    "extensions.semantic_index",
 ]
 
 source_suffix = {".md": "markdown"}
