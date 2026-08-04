@@ -33,7 +33,12 @@ python -m http.server --directory _site 8000
 
 Then open <http://localhost:8000/>.
 
-Before publishing, replace `OWNER/REPOSITORY` in `conf.py` with the GitHub
-repository path. GitHub Pages deployment is configured in
-`.github/workflows/pages.yml`.
+GitHub Pages deployment is configured in `.github/workflows/pages.yml`.
+
+## License
+
+Except where otherwise indicated, this repository is licensed under the
+[Creative Commons Attribution-NonCommercial 4.0 International License](LICENSE.md).
+You may share and adapt the material with attribution, but not for commercial
+purposes.
 

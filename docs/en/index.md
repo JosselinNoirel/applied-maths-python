@@ -8,6 +8,8 @@ This site is a practical reference for the Python tools used in a first applied
 mathematics course. Start with the programming pages, then use the topic and
 function pages whenever you need a reminder.
 
+The material is available under the [CC BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/).
+
 ## Jupyter environment
 
 - [Working in Jupyter](topics/jupyter.md)
@@ -38,4 +40,3 @@ topics/control-flow
 topics/common-errors
 reference/numpy-linspace
 ```
-

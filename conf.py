@@ -5,8 +5,8 @@ from __future__ import annotations
 import os
 
 project = "Applied Maths with Python"
-author = "Applied Maths with Python contributors"
-copyright = "2026, Applied Maths with Python contributors"
+author = "Josselin Noirel"
+copyright = "2026, Josselin Noirel — CC BY-NC 4.0"
 
 language = os.environ.get("DOC_LANGUAGE", "en")
 
