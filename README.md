@@ -3,6 +3,11 @@
 A bilingual, introductory reference for the Python, NumPy and Matplotlib tools
 used in an applied mathematics course.
 
+This site modernises and extends material originally developed in
+[`JosselinNoirel/docpy`](https://github.com/JosselinNoirel/docpy). The French
+material has been adapted to the new structure and is accompanied by an English
+version.
+
 The course documentation covers:
 
 - Jupyter environments
@@ -41,4 +46,3 @@ Except where otherwise indicated, this repository is licensed under the
 [Creative Commons Attribution-NonCommercial 4.0 International License](LICENSE.md).
 You may share and adapt the material with attribution, but not for commercial
 purposes.
-

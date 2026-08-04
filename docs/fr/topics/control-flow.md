@@ -7,6 +7,9 @@
 Les structures de contrôle déterminent quelles instructions sont exécutées et
 combien de fois.
 
+Les expressions utilisées après `if` et `while` sont détaillées dans
+[Conditions booléennes](boolean-conditions.md).
+
 ## Conditions
 
 ```python
@@ -30,4 +33,3 @@ for n in range(5):
 
 Utilisez `while` lorsque la répétition continue jusqu'à ce qu'une condition
 change. Vérifiez que le corps de la boucle peut rendre cette condition fausse.
-

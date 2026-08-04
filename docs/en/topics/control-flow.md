@@ -6,6 +6,9 @@
 
 Control structures decide which instructions run and how often.
 
+The expressions used after `if` and `while` are explained in
+[Boolean conditions](boolean-conditions.md).
+
 ## Conditions
 
 ```python
@@ -29,4 +32,3 @@ for n in range(5):
 
 Use `while` when repetition continues until a condition changes. Ensure that the
 loop body can eventually make that condition false.
-

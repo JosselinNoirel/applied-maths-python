@@ -33,3 +33,24 @@ Prefer a function that expresses the mathematical intention directly. For
 example, use `np.linspace(a, b, n)` when the number of sample points matters. Use
 `np.arange(start, stop, step)` when the increment matters instead.
 
+## Fundamental Python functions
+
+- `len(x)` gives the number of elements;
+- `type(x)` reports the object's type;
+- `abs(x)` calculates an absolute value;
+- `min(x)` and `max(x)` give extreme values;
+- `round(x)` rounds a value.
+
+## Importing a library
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+```
+
+The aliases `np` and `plt` are widely used conventions. They keep names short
+while showing where each function comes from. Avoid `from numpy import *`, which
+mixes namespaces and can hide existing functions.
+
+For constructing and calculating with arrays, see [The NumPy library](numpy.md).
+For displaying data, see [Graphs and visualisation](visualisation.md).

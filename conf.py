@@ -46,3 +46,4 @@ html_theme_options = {
 
 # Analyse Python examples and link resolvable names to local reference entries.
 codeautolink_warn_on_missing_inventory = False
+codeautolink_global_preface = "import numpy as np"

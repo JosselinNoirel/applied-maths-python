@@ -26,3 +26,24 @@ Résultat attendu :
 array([0.  , 0.25, 0.5 , 0.75, 1.  ])
 ```
 
+## Mode commande et mode édition
+
+Le **mode édition** modifie le contenu de la cellule. Le **mode commande** agit
+sur la cellule entière. {kbd}`Entrée` passe en mode édition et {kbd}`Échap`
+revient au mode commande.
+
+Raccourcis utiles en mode commande :
+
+- {kbd}`A` et {kbd}`B` ajoutent une cellule au-dessus (*above*) ou en dessous
+  (*below*) ;
+- {kbd}`C`, {kbd}`V` et {kbd}`X` copient, collent et coupent une cellule ;
+- {kbd}`M` transforme la cellule en Markdown ;
+- {kbd}`Y` transforme la cellule en code Python ;
+- {kbd}`1`, {kbd}`2`, {kbd}`3` transforment une cellule Markdown en titre du
+  niveau correspondant.
+
+En mode édition, {kbd}`Maj`+{kbd}`Entrée` exécute la cellule et sélectionne la
+suivante. Les raccourcis peuvent varier légèrement entre JupyterLab et le
+Notebook classique ; consultez la palette de commandes de votre interface.
+
+Voir aussi [Syntaxe Markdown et formules](markdown.md).

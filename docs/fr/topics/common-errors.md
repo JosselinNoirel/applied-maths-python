@@ -22,3 +22,33 @@ Réduisez un calcul défaillant au plus petit exemple qui reproduit l'erreur, pu
 inspectez les résultats intermédiaires avec `type()` et, pour les tableaux,
 `.shape`.
 
+## Variable non définie
+
+```text
+NameError: name 'a' is not defined
+```
+
+Vérifiez l'orthographe et l'ordre d'exécution des cellules Jupyter. Une
+affectation placée dans une condition fausse ne crée pas la variable :
+
+```python
+if b < 0:
+    a = np.pi
+```
+
+## Objet non indexable et indice hors limites
+
+```text
+TypeError: 'int' object is not subscriptable
+IndexError: list index out of range
+```
+
+`L[i]` n'a de sens que pour un objet indexable. Pour une séquence de trois
+valeurs, les indices valides sont `0`, `1` et `2`.
+
+## Dépassement numérique
+
+Les flottants ont une taille limitée. Une exponentielle trop grande peut
+produire `OverflowError` ou `RuntimeWarning: overflow encountered in exp`. Ce
+message signale souvent qu'il faut revoir l'échelle, les unités ou la formulation
+mathématique du calcul, et pas seulement masquer l'avertissement.

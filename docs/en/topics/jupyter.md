@@ -25,3 +25,22 @@ Expected result:
 array([0.  , 0.25, 0.5 , 0.75, 1.  ])
 ```
 
+## Command mode and edit mode
+
+**Edit mode** changes the cell contents. **Command mode** acts on the whole
+cell. {kbd}`Enter` enters edit mode and {kbd}`Esc` returns to command mode.
+
+Useful shortcuts in command mode:
+
+- {kbd}`A` and {kbd}`B` add a cell above or below;
+- {kbd}`C`, {kbd}`V` and {kbd}`X` copy, paste and cut a cell;
+- {kbd}`M` changes the cell to Markdown;
+- {kbd}`Y` changes the cell to Python code;
+- {kbd}`1`, {kbd}`2`, {kbd}`3` turn a Markdown cell into a heading at the
+  corresponding level.
+
+In edit mode, {kbd}`Shift`+{kbd}`Enter` runs the cell and selects the next one.
+Shortcuts can differ slightly between JupyterLab and the classic Notebook; check
+the command palette in your interface.
+
+See also [Markdown syntax and formulas](markdown.md).

@@ -23,3 +23,40 @@ plt.show()
 
 Always label quantities and, when relevant, include their physical units.
 
+## Example: a function with a singularity
+
+Consider $f(x)=1/(x-1)$ on $[-4,6]$. The singularity at $x=1$ requires us to
+separate the two branches of the curve:
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+def f(x):
+    return 1 / (x - 1)
+
+x = np.linspace(-4, 6, 500)
+left = x < 1
+right = x > 1
+
+fig, ax = plt.subplots()
+ax.plot(x[left], f(x[left]), color="black", label="f(x)")
+ax.plot(x[right], f(x[right]), color="black")
+ax.axhline(0, color="gray", linewidth=0.8)
+ax.axvline(1, color="lightgray", linestyle="--", label="asymptote")
+ax.set(xlabel="x", ylabel="f(x)", ylim=(-5, 5))
+ax.legend()
+plt.show()
+```
+
+Plotting all values in one call would create a misleading segment across the
+discontinuity. A graph is an analytical tool: consider the domain, singularities
+and scale.
+
+## Curves, points and scales
+
+- `ax.plot(x, y)` joins values with segments;
+- `ax.scatter(x, y)` displays separate points;
+- `ax.set_xscale("log")` or `ax.set_yscale("log")` uses a logarithmic scale when
+  values are strictly positive;
+- the `label` argument and `ax.legend()` construct a legend.
