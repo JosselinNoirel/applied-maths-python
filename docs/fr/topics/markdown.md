@@ -10,17 +10,17 @@ formules. Une ligne blanche sépare deux paragraphes.
 ## Structurer et mettre en forme
 
 ````markdown
-# Chapitre
+# Chapter
 ## Section
-### Sous-section
+### Subsection
 
-Texte *italique* et texte {concept}`gras`.
+*Italic* text and {concept}`bold` text.
 
-- Élément non numéroté
-- Autre élément
+- Unnumbered item
+- Another item
 
-1. Premier élément
-2. Deuxième élément
+1. First item
+2. Second item
 ````
 
 ## Formules mathématiques

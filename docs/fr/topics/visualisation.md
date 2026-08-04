@@ -17,7 +17,7 @@ y = np.sin(x)
 
 fig, ax = plt.subplots()
 ax.plot(x, y)
-ax.set(xlabel="x", ylabel="sin(x)", title="Fonction sinus")
+ax.set(xlabel="x", ylabel="sin(x)", title="Sine function")
 ax.grid()
 plt.show()
 ```

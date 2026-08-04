@@ -16,9 +16,9 @@ Les expressions utilisées après `if` et `while` sont détaillées dans
 temperature = 1.5
 
 if temperature < 0:
-    etat = "glace"
+    state = "ice"
 else:
-    etat = "eau liquide"
+    state = "liquid water"
 ```
 
 ## Boucles
@@ -26,18 +26,18 @@ else:
 Utilisez une boucle `for` pour parcourir des valeurs connues :
 
 ```python
-carres = []
+squares = []
 for n in range(5):
-    carres.append(n**2)
+    squares.append(n**2)
 ```
 
 Lorsque la position et la valeur sont toutes deux nécessaires, utilisez
 `enumerate` plutôt qu'un compteur mis à jour manuellement :
 
 ```python
-valeurs = [2.0, 3.5, 4.1]
-for indice, valeur in enumerate(valeurs):
-    print(indice, valeur)
+values = [2.0, 3.5, 4.1]
+for index, value in enumerate(values):
+    print(index, value)
 ```
 
 Voir la [référence de `range` et `enumerate`](../reference/python-builtins.md).

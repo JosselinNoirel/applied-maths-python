@@ -24,8 +24,8 @@ Crée un tableau de la forme demandée rempli de zéros.
 ```
 
 ```python
-etat = np.zeros(100)
-matrice = np.zeros((3, 4))
+state = np.zeros(100)
+matrix = np.zeros((3, 4))
 ```
 
 ```{py:function} numpy.empty(shape, dtype=float)
@@ -34,8 +34,8 @@ Alloue un tableau sans initialiser ses valeurs.
 ```
 
 ```python
-travail = np.empty(100)
-travail[:] = 0.0
+workspace = np.empty(100)
+workspace[:] = 0.0
 ```
 
 Ne lisez jamais les valeurs de `empty` avant de les remplacer. Préférez `zeros`

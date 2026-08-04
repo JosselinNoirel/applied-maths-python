@@ -8,9 +8,9 @@ Une variable associe un nom à un objet. L'affectation utilise `=` ; l'égalité
 mathématique se teste avec `==`.
 
 ```python
-masse = 2.5
+mass = 2.5
 acceleration = 9.81
-force = masse * acceleration
+force = mass * acceleration
 
 force == 24.525
 ```

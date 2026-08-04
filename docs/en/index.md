@@ -29,6 +29,7 @@ General information about Python syntax:
 - [Boolean conditions and comparisons](topics/boolean-conditions.md)
 - [Control structures: `for`, `while` and conditions](topics/control-flow.md)
 - [Common errors](topics/common-errors.md)
+- [Good programming practice](topics/good-practice.md)
 - [Basic mathematical operations](topics/basic-mathematics.md)
 - [Basic statistics](topics/basic-statistics.md)
 
@@ -56,6 +57,7 @@ Common functions <topics/common-functions>
 Booleans <topics/boolean-conditions>
 Control flow <topics/control-flow>
 Errors <topics/common-errors>
+Good practice <topics/good-practice>
 Basic maths <topics/basic-mathematics>
 Statistics <topics/basic-statistics>
 Linear systems <topics/systems-of-equations>

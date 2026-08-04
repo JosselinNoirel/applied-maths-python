@@ -14,8 +14,8 @@ fonctions NumPy peuvent réduire tout le tableau ou un axe choisi :
 import numpy as np
 
 A = np.array([[3.0, -1.0], [7.0, 2.0]])
-minimum_colonnes = np.min(A, axis=0)
-maximum_lignes = np.max(A, axis=1)
+column_minima = np.min(A, axis=0)
+row_maxima = np.max(A, axis=1)
 total = np.sum(A)
 ```
 

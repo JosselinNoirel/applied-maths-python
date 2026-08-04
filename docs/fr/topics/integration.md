@@ -18,7 +18,7 @@ Choisissez l'outil selon l'information disponible :
 import numpy as np
 from scipy.integrate import quad
 
-valeur, erreur = quad(lambda x: np.exp(-x**2), 0, 1)
+value, error = quad(lambda x: np.exp(-x**2), 0, 1)
 ```
 
 L'erreur renvoyée est une estimation numérique, et non une preuve de la validité

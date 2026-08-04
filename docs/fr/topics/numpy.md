@@ -39,9 +39,9 @@ Pour un intervalle de flottants dont les deux bornes importent, préférez souve
 ### Initialiser et saisir un tableau
 
 ```python
-vide = np.empty(5)       # valeurs non initialisées
-zeros = np.zeros(5)      # cinq zéros
-ones = np.ones(5)        # cinq uns
+uninitialised = np.empty(5)
+zeros = np.zeros(5)
+ones = np.ones(5)
 data = np.array([-3.71, 1.43, -2.49, 7.21])
 ```
 
@@ -62,10 +62,10 @@ plus claire et plus rapide qu'une boucle Python.
 
 ```python
 total = np.sum(data)
-moyenne = np.mean(data)
+average = np.mean(data)
 minimum = np.min(data)
 maximum = np.max(data)
-ecart_type = np.std(data)
+standard_deviation = np.std(data)
 variance = np.var(data)
 ```
 

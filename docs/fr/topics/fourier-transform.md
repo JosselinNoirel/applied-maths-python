@@ -37,18 +37,18 @@ Calcule la transformée de Fourier discrète inverse.
 import numpy as np
 import matplotlib.pyplot as plt
 
-frequence_echantillonnage = 100.0
-duree = 2.0
-t = np.arange(0, duree, 1 / frequence_echantillonnage)
+sampling_rate = 100.0
+duration = 2.0
+t = np.arange(0, duration, 1 / sampling_rate)
 signal = np.sin(2 * np.pi * 7 * t)
 
-spectre = np.fft.fft(signal)
-frequences = np.fft.fftfreq(len(signal), d=1 / frequence_echantillonnage)
+spectrum = np.fft.fft(signal)
+frequencies = np.fft.fftfreq(len(signal), d=1 / sampling_rate)
 
-positives = frequences >= 0
-plt.plot(frequences[positives], np.abs(spectre[positives]))
-plt.xlabel("fréquence (Hz)")
-plt.ylabel("amplitude")
+positive = frequencies >= 0
+plt.plot(frequencies[positive], np.abs(spectrum[positive]))
+plt.xlabel("frequency (Hz)")
+plt.ylabel("magnitude")
 plt.show()
 ```
 
@@ -57,8 +57,8 @@ positive. L'amplitude dépend de la normalisation et du nombre d'échantillons. 
 retrouve le signal initial, aux erreurs d'arrondi près, avec :
 
 ```python
-reconstruit = np.fft.ifft(spectre).real
-np.allclose(reconstruit, signal)
+reconstructed = np.fft.ifft(spectrum).real
+np.allclose(reconstructed, signal)
 ```
 
 Voir la [référence FFT officielle de NumPy](https://numpy.org/doc/stable/reference/routines.fft.html).

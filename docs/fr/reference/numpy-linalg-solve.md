@@ -21,7 +21,7 @@ x = np.linalg.solve(A, b)
 compatible avec `A`. Vérifiez le résultat avec `A @ x` ou un résidu :
 
 ```python
-residu = np.linalg.norm(A @ x - b)
+residual = np.linalg.norm(A @ x - b)
 ```
 
 Ne calculez pas `np.linalg.inv(A) @ b` : résoudre directement le système est

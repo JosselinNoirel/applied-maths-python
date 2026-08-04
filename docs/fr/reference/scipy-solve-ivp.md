@@ -13,11 +13,11 @@ Résout un problème de Cauchy $y'=f(t,y)$ avec $y(t_0)=y_0$.
 import numpy as np
 from scipy.integrate import solve_ivp
 
-def second_membre(t, y):
+def rhs(t, y):
     return -2 * y
 
 t = np.linspace(0, 3, 100)
-solution = solve_ivp(second_membre, (0, 3), [1.0], t_eval=t)
+solution = solve_ivp(rhs, (0, 3), [1.0], t_eval=t)
 y = solution.y[0]
 ```
 

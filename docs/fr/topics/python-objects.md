@@ -13,11 +13,11 @@ booléens (`bool`), les chaînes (`str`), les listes (`list`) et les tableaux Nu
 import numpy as np
 
 n = 4
-pas = 0.25
-etiquette = "position"
-valeurs = np.array([0.0, 0.25, 0.5, 0.75])
+step = 0.25
+label = "position"
+values = np.array([0.0, 0.25, 0.5, 0.75])
 
-type(valeurs)
+type(values)
 ```
 
 Contrairement à une liste, un tableau NumPy permet des opérations numériques

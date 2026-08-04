@@ -15,7 +15,7 @@ Renvoie `num` valeurs régulièrement espacées dans l'intervalle allant de `sta
 ```python
 import numpy as np
 
-x = np.linspace(debut, fin, nombre)
+x = np.linspace(start, stop, num)
 ```
 
 Le résultat est un tableau NumPy contenant `nombre` valeurs. Par défaut, les
@@ -60,8 +60,8 @@ y = [ 1.   0.25 0.   0.25 1. ]
 ```python
 import numpy as np
 
-ferme = np.linspace(0, 1, 5)
-semi_ouvert = np.linspace(0, 1, 5, endpoint=False)
+closed = np.linspace(0, 1, 5)
+half_open = np.linspace(0, 1, 5, endpoint=False)
 ```
 
 `ferme` contient `1` ; `semi_ouvert` se termine par `0.8`. Ce dernier cas est
@@ -73,8 +73,8 @@ représenteraient sinon la même position.
 Le troisième argument est un {concept}`nombre de points`, et non un pas :
 
 ```python
-np.linspace(0, 1, 0.1)  # incorrect : 0.1 n'est pas un nombre de points
-np.linspace(0, 1, 11)   # 11 points séparés par un pas de 0.1
+np.linspace(0, 1, 0.1)  # incorrect: 0.1 is not a number of points
+np.linspace(0, 1, 11)   # 11 points separated by 0.1
 ```
 
 Pour l'API de référence et les options avancées, consultez la

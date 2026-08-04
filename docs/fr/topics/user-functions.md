@@ -8,12 +8,12 @@ Le mot-clé `def` donne un nom à un calcul réutilisable. Le bloc indenté est 
 corps de la fonction ; `return` renvoie un résultat à l'appelant.
 
 ```python
-def energie_cinetique(masse, vitesse):
-    """Renvoie 1/2 m v²."""
-    return 0.5 * masse * vitesse**2
+def kinetic_energy(mass, velocity):
+    """Return 1/2 m v²."""
+    return 0.5 * mass * velocity**2
 
 
-energie_cinetique(2, 3)
+kinetic_energy(2, 3)
 ```
 
 Le résultat est `9.0`. Les paramètres comme `masse` sont locaux à la fonction.
@@ -39,11 +39,11 @@ fonction étudiée en un seul endroit.
 Une fonction peut également automatiser plusieurs instructions :
 
 ```python
-def somme_positive(valeurs):
+def positive_sum(values):
     total = 0.0
-    for valeur in valeurs:
-        if valeur > 0:
-            total = total + valeur
+    for value in values:
+        if value > 0:
+            total = total + value
     return total
 ```
 

@@ -11,13 +11,13 @@ sa taille, son minimum, son maximum, sa somme, sa moyenne arithmétique et son
 ```python
 import numpy as np
 
-donnees = np.array([4.1, 3.8, 4.4, 5.0, 4.2])
-n = len(donnees)
-minimum = np.min(donnees)
-maximum = np.max(donnees)
-total = np.sum(donnees)
-moyenne = np.mean(donnees)
-ecart_type = np.std(donnees, ddof=1)
+data = np.array([4.1, 3.8, 4.4, 5.0, 4.2])
+n = len(data)
+minimum = np.min(data)
+maximum = np.max(data)
+total = np.sum(data)
+mean = np.mean(data)
+standard_deviation = np.std(data, ddof=1)
 ```
 
 Le choix entre `ddof=0` et `ddof=1` dépend du fait que les valeurs représentent

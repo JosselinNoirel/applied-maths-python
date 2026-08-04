@@ -20,8 +20,8 @@ proches.
 ```python
 import numpy as np
 
-comparaison = np.isclose([0.1 + 0.2, 1.0], [0.3, 1.001])
-tout_proche = np.allclose([0.1 + 0.2, 1.0], [0.3, 1.001])
+comparison = np.isclose([0.1 + 0.2, 1.0], [0.3, 1.001])
+all_match = np.allclose([0.1 + 0.2, 1.0], [0.3, 1.001])
 ```
 
 Choisissez `atol` selon l'échelle du problème. Les valeurs par défaut peuvent

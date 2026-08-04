@@ -15,7 +15,7 @@ import numpy as np
 
 x = np.array([0.0, 1.0, 2.0, 3.0])
 y = np.array([1.1, 2.9, 5.2, 6.8])
-pente, ordonnee_origine = np.polyfit(x, y, deg=1)
+slope, intercept = np.polyfit(x, y, deg=1)
 ```
 
 Utilisez `numpy.polyval` pour évaluer le polynôme. Un ajustement de degré élevé
@@ -31,9 +31,9 @@ l'ordonnée à l'origine, la corrélation, un test d'hypothèse et des erreurs t
 ```python
 from scipy.stats import linregress
 
-resultat = linregress(x, y)
-y_ajuste = resultat.intercept + resultat.slope * x
-r_carre = resultat.rvalue**2
+result = linregress(x, y)
+y_fit = result.intercept + result.slope * x
+r_squared = result.rvalue**2
 ```
 
 Utilisez `polyfit(..., deg=1)` pour obtenir simplement les coefficients. Utilisez

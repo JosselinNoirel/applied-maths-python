@@ -14,7 +14,7 @@ Renvoie `(valeur, erreur_estimée)`.
 import numpy as np
 from scipy.integrate import quad
 
-valeur, erreur = quad(np.sin, 0, np.pi)
+value, error = quad(np.sin, 0, np.pi)
 ```
 
 Ici, `valeur` est proche de `2`. L'intégrande doit accepter un scalaire comme

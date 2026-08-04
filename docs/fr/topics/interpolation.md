@@ -17,7 +17,7 @@ import numpy as np
 
 x = np.array([0.0, 1.0, 2.0])
 y = np.array([0.0, 1.0, 4.0])
-y_nouveau = np.interp(1.5, x, y)
+y_new = np.interp(1.5, x, y)
 ```
 
 Examinez toujours la densité d'échantillonnage et le comportement attendu entre

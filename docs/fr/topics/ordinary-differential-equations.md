@@ -13,12 +13,12 @@ utilisez [`scipy.integrate.solve_ivp`](../reference/scipy-solve-ivp.md).
 import numpy as np
 from scipy.integrate import solve_ivp
 
-def second_membre(t, etat):
-    position, vitesse = etat
-    return [vitesse, -position]
+def rhs(t, state):
+    position, velocity = state
+    return [velocity, -position]
 
 t = np.linspace(0, 10, 300)
-solution = solve_ivp(second_membre, (0, 10), [1.0, 0.0], t_eval=t)
+solution = solve_ivp(rhs, (0, 10), [1.0, 0.0], t_eval=t)
 ```
 
 Vérifiez le succès du solveur, choisissez les tolérances selon l'échelle du

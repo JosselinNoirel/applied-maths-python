@@ -14,8 +14,8 @@ dernière ligne, puis examinez la ligne de code signalée.
 - `IndentationError` : l'indentation ne forme pas un bloc valide.
 
 ```python
-valeurs = [10, 20, 30]
-valeurs[3]  # IndexError : les indices valides sont 0, 1 et 2
+values = [10, 20, 30]
+values[3]  # IndexError: valid indices are 0, 1 and 2
 ```
 
 Réduisez un calcul défaillant au plus petit exemple qui reproduit l'erreur, puis

@@ -16,8 +16,8 @@ from scipy.interpolate import interp1d
 
 x = np.array([0.0, 1.0, 2.0, 3.0])
 y = x**2
-interpolante = interp1d(x, y)
-y_demi = interpolante(1.5)
+interpolant = interp1d(x, y)
+y_half = interpolant(1.5)
 ```
 
 `interp1d` apparaît dans les notebooks mais constitue désormais une interface

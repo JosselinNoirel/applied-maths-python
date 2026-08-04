@@ -31,8 +31,8 @@ Affiche un ou plusieurs objets sous forme de texte.
 
 ```python
 iteration = 4
-erreur = 2.3e-5
-print("itération :", iteration, "erreur :", erreur)
+error = 2.3e-5
+print("iteration:", iteration, "error:", error)
 ```
 
 `print` aide à examiner des résultats intermédiaires, mais une fonction doit en
@@ -46,7 +46,7 @@ Renvoie la valeur absolue d'un nombre.
 ```
 
 ```python
-erreur_absolue = abs(approximation - valeur_exacte)
+absolute_error = abs(approximation - exact_value)
 ```
 
 Utilisez `numpy.abs` pour les tableaux.
@@ -59,8 +59,8 @@ Renvoie le nombre d'éléments d'un conteneur.
 ```
 
 ```python
-valeurs = [2.0, 3.5, 4.1]
-n = len(valeurs)
+values = [2.0, 3.5, 4.1]
+n = len(values)
 ```
 
 Pour un tableau NumPy multidimensionnel, `len(a)` ne donne que la taille du
@@ -80,8 +80,8 @@ Renvoie le plus grand élément d'un itérable.
 
 ```python
 temperatures = [12.4, 9.8, 14.1, 11.3]
-minimum = min(temperatures)
-maximum = max(temperatures)
+lowest = min(temperatures)
+highest = max(temperatures)
 ```
 
 Pour un tableau NumPy, préférez `numpy.min` et `numpy.max`, en particulier pour
@@ -96,9 +96,9 @@ compteur.
 ```
 
 ```python
-valeurs = [2.0, 3.5, 4.1]
-for indice, valeur in enumerate(valeurs):
-    print(indice, valeur)
+values = [2.0, 3.5, 4.1]
+for index, value in enumerate(values):
+    print(index, value)
 ```
 
 Voir les [fonctions intégrées officielles de Python](https://docs.python.org/fr/3/library/functions.html).

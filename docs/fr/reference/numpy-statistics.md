@@ -31,13 +31,13 @@ Le total se calcule avec {py:func}`numpy.sum`.
 ```python
 import numpy as np
 
-donnees = np.array([2.1, 2.4, 2.5, 3.0])
-resume = {
-    "minimum": np.min(donnees),
-    "maximum": np.max(donnees),
-    "moyenne": np.mean(donnees),
-    "ecart_type": np.std(donnees),
-    "somme": np.sum(donnees),
+data = np.array([2.1, 2.4, 2.5, 3.0])
+summary = {
+    "minimum": np.min(data),
+    "maximum": np.max(data),
+    "mean": np.mean(data),
+    "standard_deviation": np.std(data),
+    "sum": np.sum(data),
 }
 ```
 

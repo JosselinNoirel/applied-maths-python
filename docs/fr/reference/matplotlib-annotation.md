@@ -36,9 +36,9 @@ Affiche les légendes fournies aux tracés avec `label=...`.
 
 ```python
 plt.plot(x, y, label="approximation")
-plt.xlabel("temps (s)")
+plt.xlabel("time (s)")
 plt.ylabel("position (m)")
-plt.title("Trajectoire numérique")
+plt.title("Numerical trajectory")
 plt.xlim(0, 10)
 plt.ylim(-2, 2)
 plt.legend()

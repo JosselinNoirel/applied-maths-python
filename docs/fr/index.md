@@ -29,6 +29,7 @@ Généralités sur la syntaxe Python :
 - [Conditions booléennes et comparaisons](topics/boolean-conditions.md)
 - [Structures de contrôle : boucles `for`, `while` et conditions](topics/control-flow.md)
 - [Erreurs classiques](topics/common-errors.md)
+- [Bonnes pratiques de programmation](topics/good-practice.md)
 - [Opérations mathématiques élémentaires](topics/basic-mathematics.md)
 - [Statistiques élémentaires](topics/basic-statistics.md)
 
@@ -56,6 +57,7 @@ Fonctions usuelles <topics/common-functions>
 Booléens <topics/boolean-conditions>
 Contrôle <topics/control-flow>
 Erreurs <topics/common-errors>
+Bonnes pratiques <topics/good-practice>
 Maths élémentaires <topics/basic-mathematics>
 Statistiques <topics/basic-statistics>
 Systèmes linéaires <topics/systems-of-equations>

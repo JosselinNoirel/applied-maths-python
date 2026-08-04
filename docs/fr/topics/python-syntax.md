@@ -15,7 +15,7 @@ fonctions et structures de contrôle. Le caractère `#` commence un commentaire
 que Python ignore :
 
 ```python
-x = x + 1  # Incrémente x d'une unité
+x = x + 1  # Increment x by one
 ```
 
 Un bon commentaire explique l'intention du calcul plutôt que de répéter le code.
@@ -42,7 +42,7 @@ Avec des tableaux NumPy, ces opérateurs agissent terme à terme.
 Les parenthèses caractérisent l'appel d'une fonction :
 
 ```python
-fonction(argument_1, argument_2)
+function(argument_1, argument_2)
 ```
 
 Les arguments positionnels doivent respecter l'ordre prévu. Les arguments nommés
