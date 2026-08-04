@@ -10,6 +10,8 @@ function pages whenever you need a reminder.
 
 The material is available under the [CC BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/).
 
+See [how to edit these pages](topics/howto.md).
+
 ## Jupyter environment
 
 - [Working in Jupyter](topics/jupyter.md)
@@ -45,6 +47,7 @@ General information about Python syntax:
 :hidden:
 :maxdepth: 2
 
+Editing <topics/howto>
 Jupyter <topics/jupyter>
 Markdown <topics/markdown>
 Python syntax <topics/python-syntax>

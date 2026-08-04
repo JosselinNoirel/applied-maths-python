@@ -10,6 +10,8 @@ programmation, puis consultez les pages thématiques et les fiches de fonctions.
 
 Le contenu est proposé sous [licence CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.fr).
 
+Consulter la page exposant [comment modifier la documentation](topics/howto.md).
+
 ## Environnement Jupyter
 
 - [Travailler dans Jupyter](topics/jupyter.md)
@@ -45,6 +47,7 @@ Généralités sur la syntaxe Python :
 :hidden:
 :maxdepth: 2
 
+Éditer <topics/howto>
 Jupyter <topics/jupyter>
 Markdown <topics/markdown>
 Syntaxe Python <topics/python-syntax>

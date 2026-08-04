@@ -18,12 +18,10 @@ it needs through parameters and return its result explicitly.
 ```python
 import numpy as np
 
-
 def damped_signal(time, frequency, decay_rate):
     """Return a sinusoidal signal with exponential damping."""
     oscillation = np.sin(2 * np.pi * frequency * time)
     return np.exp(-decay_rate * time) * oscillation
-
 
 time = np.linspace(0.0, 5.0, 500)
 signal = damped_signal(time, frequency=2.0, decay_rate=0.4)
