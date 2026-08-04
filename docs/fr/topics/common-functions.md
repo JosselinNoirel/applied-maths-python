@@ -56,3 +56,9 @@ fonctions existantes.
 Pour la création et le calcul sur les tableaux, consultez la page
 [Bibliothèque NumPy](numpy.md). Pour la représentation des données, consultez
 [Graphiques et visualisation](visualisation.md).
+
+Fiches issues de l'inventaire des notebooks :
+
+- [Fonctions Python fréquemment utilisées](../reference/python-builtins.md)
+- [Créer des tableaux NumPy](../reference/numpy-array-creation.md)
+- [Fonctions mathématiques avec NumPy](../reference/numpy-mathematics.md)

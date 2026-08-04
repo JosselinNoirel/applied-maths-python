@@ -1,7 +1,9 @@
 .venv/
+.notebook-input/
 _site/
 _build/
 .DS_Store
 __pycache__/
 *.py[cod]
 
+.notebook-input/

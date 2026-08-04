@@ -60,3 +60,9 @@ and scale.
 - {funcindex}`ax.set_xscale`(`"log"`) or {funcindex}`ax.set_yscale`(`"log"`) uses a logarithmic scale when
   values are strictly positive;
 - the `label` argument and {funcindex}`ax.legend`() construct a legend.
+
+Detailed references:
+
+- [Basic plotting: `subplots`, `plot`, `scatter`, `show`](../reference/matplotlib-plotting.md)
+- [Titles, labels, limits and legends](../reference/matplotlib-annotation.md)
+- [Vector fields with `quiver` and `streamplot`](../reference/matplotlib-vector-fields.md)

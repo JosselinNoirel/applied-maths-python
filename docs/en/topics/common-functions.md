@@ -54,3 +54,9 @@ mixes namespaces and can hide existing functions.
 
 For constructing and calculating with arrays, see [The NumPy library](numpy.md).
 For displaying data, see [Graphs and visualisation](visualisation.md).
+
+Notebook-derived reference pages:
+
+- [Frequently used Python functions](../reference/python-builtins.md)
+- [Creating NumPy arrays](../reference/numpy-array-creation.md)
+- [Mathematical functions with NumPy](../reference/numpy-mathematics.md)

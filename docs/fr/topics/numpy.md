@@ -82,3 +82,10 @@ variance = np.var(data)
 | arrondi | {funcindex}`np.round`(`x`) |
 
 Les fonctions trigonométriques utilisent des angles exprimés en radians.
+
+## Référence détaillée
+
+- [Créer des tableaux : `array`, `zeros`, `empty`, `arange`](../reference/numpy-array-creation.md)
+- [Fonctions mathématiques : `exp`, `log`, `sqrt`, `sin`, `cos`, `abs`, `sum`](../reference/numpy-mathematics.md)
+- [Grilles de coordonnées avec `meshgrid`](../reference/numpy-meshgrid.md)
+- [Résoudre un système avec `numpy.linalg.solve`](../reference/numpy-linalg-solve.md)

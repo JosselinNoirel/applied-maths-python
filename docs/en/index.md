@@ -30,6 +30,13 @@ General information about Python syntax:
 - [Control structures: `for`, `while` and conditions](topics/control-flow.md)
 - [Common errors](topics/common-errors.md)
 
+## Applied mathematics
+
+- [Systems of linear equations](topics/systems-of-equations.md)
+- [Numerical integration](topics/integration.md)
+- [Ordinary differential equations](topics/ordinary-differential-equations.md)
+- [Interpolation](topics/interpolation.md)
+
 ```{toctree}
 :hidden:
 :maxdepth: 2
@@ -46,5 +53,20 @@ topics/common-functions
 topics/boolean-conditions
 topics/control-flow
 topics/common-errors
+topics/systems-of-equations
+topics/integration
+topics/ordinary-differential-equations
+topics/interpolation
 reference/numpy-linspace
+reference/python-builtins
+reference/numpy-array-creation
+reference/numpy-mathematics
+reference/numpy-meshgrid
+reference/numpy-linalg-solve
+reference/matplotlib-plotting
+reference/matplotlib-annotation
+reference/matplotlib-vector-fields
+reference/scipy-integrate-quad
+reference/scipy-solve-ivp
+reference/scipy-interpolation
 ```

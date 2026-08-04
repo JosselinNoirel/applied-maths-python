@@ -61,3 +61,9 @@ compte du domaine de définition, des singularités et de l'échelle.
 - {funcindex}`ax.set_xscale`(`"log"`) ou {funcindex}`ax.set_yscale`(`"log"`) utilise une échelle
   logarithmique lorsque les valeurs sont strictement positives ;
 - l'argument `label` et {funcindex}`ax.legend`() construisent une légende.
+
+Références détaillées :
+
+- [Tracés de base : `subplots`, `plot`, `scatter`, `show`](../reference/matplotlib-plotting.md)
+- [Titres, légendes, limites et annotations](../reference/matplotlib-annotation.md)
+- [Champs de vecteurs avec `quiver` et `streamplot`](../reference/matplotlib-vector-fields.md)

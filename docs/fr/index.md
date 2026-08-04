@@ -30,6 +30,13 @@ Généralités sur la syntaxe Python :
 - [Structures de contrôle : boucles `for`, `while` et conditions](topics/control-flow.md)
 - [Erreurs classiques](topics/common-errors.md)
 
+## Mathématiques appliquées
+
+- [Systèmes d'équations linéaires](topics/systems-of-equations.md)
+- [Intégration numérique](topics/integration.md)
+- [Équations différentielles ordinaires](topics/ordinary-differential-equations.md)
+- [Interpolation](topics/interpolation.md)
+
 ```{toctree}
 :hidden:
 :maxdepth: 2
@@ -46,5 +53,20 @@ topics/common-functions
 topics/boolean-conditions
 topics/control-flow
 topics/common-errors
+topics/systems-of-equations
+topics/integration
+topics/ordinary-differential-equations
+topics/interpolation
 reference/numpy-linspace
+reference/python-builtins
+reference/numpy-array-creation
+reference/numpy-mathematics
+reference/numpy-meshgrid
+reference/numpy-linalg-solve
+reference/matplotlib-plotting
+reference/matplotlib-annotation
+reference/matplotlib-vector-fields
+reference/scipy-integrate-quad
+reference/scipy-solve-ivp
+reference/scipy-interpolation
 ```

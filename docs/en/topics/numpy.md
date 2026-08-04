@@ -82,3 +82,10 @@ variance = np.var(data)
 | rounding | {funcindex}`np.round`(`x`) |
 
 Trigonometric functions expect angles in radians.
+
+## Detailed reference
+
+- [Creating arrays: `array`, `zeros`, `empty`, `arange`](../reference/numpy-array-creation.md)
+- [Mathematical functions: `exp`, `log`, `sqrt`, `sin`, `cos`, `abs`, `sum`](../reference/numpy-mathematics.md)
+- [Coordinate grids with `meshgrid`](../reference/numpy-meshgrid.md)
+- [Solving a linear system with `numpy.linalg.solve`](../reference/numpy-linalg-solve.md)
