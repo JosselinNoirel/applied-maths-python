@@ -1,7 +1,9 @@
 # Applied Maths with Python · Maths appliquées avec Python
 
 A bilingual, introductory reference for the Python, NumPy and Matplotlib tools
-used in an applied mathematics course.
+used in an applied mathematics course. It is published as a GitHub Page
+
+<center>https://josselinnoirel.github.io/applied-maths-python/</center>
 
 This site modernises and extends material originally developed in
 [`JosselinNoirel/docpy`](https://github.com/JosselinNoirel/docpy). The French
