@@ -117,7 +117,7 @@ Si un opérateur n'existe pas (par exemple `8***4`), SyntaxError!
 
 Généralement, le problème est assez clairement identifié par Python:
 
-```
+```text
   Cell In[31], line 1
     if a == b
              ^
