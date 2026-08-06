@@ -4,61 +4,37 @@
 <p class="language-switch"><a href="../../en/topics/common-functions.html">English</a></p>
 ```
 
-Python, NumPy et Matplotlib fournissent des fonctions réutilisables pour créer
-des données, effectuer des calculs et afficher des résultats. On importe
-habituellement NumPy avec l'alias `np` :
-
-```python
-import numpy as np
-```
-
-## Construire un intervalle régulièrement discrétisé
-
-[{funcindex}`numpy.linspace`](../reference/numpy-linspace.md) construit un nombre choisi de
-valeurs régulièrement espacées entre deux bornes.
-
-```python
-import numpy as np
-
-x = np.linspace(-1, 1, 5)
-```
-
-Ici, `x` vaut `array([-1. , -0.5, 0. , 0.5, 1. ])`. Consultez la
-[fiche complète de {funcindex}`numpy.linspace`](../reference/numpy-linspace.md) pour les
-règles sur les bornes, la valeur renvoyée, les exemples et les erreurs courantes.
-
-## Choisir une fonction
-
-Préférez une fonction qui exprime directement l'intention mathématique. Utilisez
-par exemple {funcindex}`np.linspace`(`a, b, n`) lorsque le nombre de points importe, et
-{funcindex}`np.arange`(`debut, fin, pas`) lorsque c'est l'incrément qui importe.
+Python (et ses bibliothèques) fournissent des fonctions réutilisables pour créer
+des données, effectuer des calculs et afficher des résultats.
 
 ## Fonctions Python fondamentales
 
-- {funcindex}`len`(`x`) donne le nombre d'éléments ;
-- {funcindex}`type`(`x`) indique le type de l'objet ;
-- {funcindex}`abs`(`x`) calcule une valeur absolue ;
-- {funcindex}`min`(`x`) et {funcindex}`max`(`x`) donnent les valeurs extrêmes ;
-- {funcindex}`round`(`x`) arrondit une valeur.
+Les fonctions fournies par Python sont peu nombreuses (cf. la liste des [fonctions natives](https://docs.python.org/fr/3/library/functions.html)). Les plus utiles sont
 
-## Importer une bibliothèque
+- {funcindex}`print` affiche à l'écran ses arguments (cette fonction est peu utile dans le contexte interactif sauf pour [débugguer](debug.md)).
+- {funcindex}`len` donne le nombre d'éléments d'une liste, d'un tableau NumPy ou le nombre de caractères d'une chaîne de caractères;
+- {funcindex}`sum` donne la sommes des éléments d'une liste ou d'un tableau NumPy;
+- {funcindex}`type` indique le type de l'objet;
+- {funcindex}`abs` calcule une valeur absolue;
+- {funcindex}`min` et {funcindex}`max` donnent les valeurs extrêmes;
+- {funcindex}`round` arrondit une valeur;
+- {funcindex}`range` produit une séquence d'entiers;
+- {funcindex}`divmod` donne le quotient et le reste de la division euclidienne de deux entiers.
 
-```python
-import numpy as np
-import matplotlib.pyplot as plt
-```
+Cf. les [fonctions Python fréquemment utilisées](../reference/python-builtins.md).
 
-Les alias `np` et `plt` sont des conventions largement utilisées. Ils évitent
-des noms trop longs tout en gardant visible l'origine de chaque fonction. Évitez
-`from numpy import *`, qui mélange les espaces de noms et peut masquer des
-fonctions existantes.
+Pour les conversions:
 
-Pour la création et le calcul sur les tableaux, consultez la page
-[Bibliothèque NumPy](numpy.md). Pour la représentation des données, consultez
-[Graphiques et visualisation](visualisation.md).
+- {funcindex}`int` pour convertir en un entier `int('10')` ou `int(10.0)`
+- {funcindex}`float` pour convertir en un nombre à virgule `float(10)` ou `float('1.4e3`)`
 
-Fiches issues de l'inventaire des notebooks :
+Cf. les [Objets Python](python-objects.md).
 
-- [Fonctions Python fréquemment utilisées](../reference/python-builtins.md)
-- [Créer des tableaux NumPy](../reference/numpy-array-creation.md)
-- [Fonctions mathématiques avec NumPy](../reference/numpy-mathematics.md)
+## Fonctions mathématiques
+
+Les fonctions mathématiques sont fournies par des bibliothèques. Dans le cadre des cours de mathématiques appliquées, ce sera souvent celles de NumPy (`np.exp` pour une exponentielle).
+Cf. la page [NumPy](numpy.md). D'autres bibliothèques fournissent des outils mathématiques, cf. [Bibliothèques Python](libs.md).
+
+## Fonctions définies par l'utilisateurs
+
+Cf. [Fonctions définies par l'utilisateur](user-functions.md).

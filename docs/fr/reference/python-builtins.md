@@ -24,7 +24,7 @@ Utilisez `range` pour les indices de boucle. Utilisez `numpy.arange` ou
 
 ## `print`
 
-```{py:function} print(*objects, sep=' ', end='\n')
+```{py:function} print(..., sep=' ', end='\n')
 
 Affiche un ou plusieurs objets sous forme de texte.
 ```

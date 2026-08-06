@@ -1,0 +1,69 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 15.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[      1966,         61]
+NotebookOptionsPosition[      1529,         46]
+NotebookOutlinePosition[      1919,         62]
+CellTagsIndexPosition[      1876,         59]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"SetDirectory", "[", 
+   RowBox[{"NotebookDirectory", "[", "]"}], "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.994920687376955*^9, 3.994920692430626*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"dc33aec8-5b24-4174-8b2b-f9cd99ec1f77"],
+
+Cell[BoxData[
+ RowBox[{"Do", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"img", "=", 
+     RowBox[{"Import", "[", "fn", "]"}]}], ";", "\[IndentingNewLine]", 
+    RowBox[{"img", "=", 
+     RowBox[{"ImageCrop", "[", "img", "]"}]}], ";", "\[IndentingNewLine]", 
+    RowBox[{"Export", "[", 
+     RowBox[{
+      RowBox[{"\"\<crop_\>\"", "<>", "fn"}], ",", "img"}], "]"}]}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{"fn", ",", 
+     RowBox[{"FileNames", "[", "\"\<figures*.png\>\"", "]"}]}], "}"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.9949206947802134`*^9, 3.994920753921605*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"0521b9d4-ec86-430c-b41f-0bdc2b572606"]
+},
+WindowSize->{808, 911},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"15.0 for Mac OS X ARM (64-bit) (May 19, 2026)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"c11b7a1c-59cb-41fd-bfc3-5a47aed786da"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[554, 20, 267, 5, 29, "Input",ExpressionUUID->"dc33aec8-5b24-4174-8b2b-f9cd99ec1f77"],
+Cell[824, 27, 701, 17, 111, "Input",ExpressionUUID->"0521b9d4-ec86-430c-b41f-0bdc2b572606"]
+}
+]
+*)
+
