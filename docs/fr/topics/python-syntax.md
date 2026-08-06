@@ -29,7 +29,7 @@ Un programme consiste en une suite d'**instructions**. Ces instructions permette
 -   opérations faisant appel à des **opérateurs**
 -   appeler des fonctions,
     -   soit des fonctions prédéfinies (par exemple,
-        `len()` cf. [](../reference/python-builtins.html)),
+        `len()` ; voir les [fonctions Python](../reference/python-builtins.md)),
     -   soit des fonctions définies par une bibliothèque (par exemple,
         [`linspace()`](../reference/numpy-linspace.md)),
     -   soit encore des fonctions définies par l'utilisateur (cf.

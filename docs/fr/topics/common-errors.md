@@ -75,7 +75,7 @@ Le premier élément d'une liste est `L[0]` et non `L[1]`!
 L'{concept}`indentation` en bloc est importante en Python: elle marque d'un point de vue syntaxique les relations de dépendance des diverses instructions.  Dans l'exemple suivant
 
 ```Python
-if b < 0
+if b < 0:
     if a < 0:
         c = a * b
 ```
@@ -90,7 +90,7 @@ On peut donc rencontrer deux types d'IndentationError:
 Parfois une erreur peut être silencieuse (les pires bugs). Il faut bien distinguer
 
 ```Python
-if b < 0
+if b < 0:
     if a < 0:
         c = a * b
 else:
@@ -100,7 +100,7 @@ else:
 et
 
 ```Python
-if b < 0
+if b < 0:
     if a < 0:
         c = a * b
     else:

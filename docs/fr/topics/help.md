@@ -10,7 +10,7 @@ On peut obtenir de l'aide directement dans Jupyter en cliquant sur *Interactive 
 
 L'aide interactive présente la documentation de la fonction (grâce à la *docstring*) sur laquelle votre curseur est 
 
-![Aide présentée](../static/images/jlab_help.png)
+![Aide présentée](../_static/images/jlab_help.png)
 
 La documentation inclut un «signature»
 

@@ -71,6 +71,8 @@ Fonctions usuelles <topics/common-functions>
 Booléens <topics/boolean-conditions>
 Contrôle <topics/control-flow>
 Erreurs <topics/common-errors>
+Débogage <topics/debug>
+Aide <topics/help>
 Bonnes pratiques <topics/good-practice>
 Maths élémentaires <topics/basic-mathematics>
 Statistiques <topics/basic-statistics>

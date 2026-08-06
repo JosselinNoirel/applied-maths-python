@@ -19,7 +19,7 @@ des minuscules. Python permet d'utiliser des lettres d'alphabets non latins, ce 
 
 Il faut bien distinguer l'opérateur `=` de Python qui attribue une valeur à une variable et la relation mathématique \(=\) qui affirme l'identité entre deux objets. Par conséquent, il est possible d'écrire en Python `k = k + 1` (qui modifie la valeur stockée par la variable \(k\) en l'incrémentant d'une unité, \(k\) passerait par exemple de 10 à 11) alors que la relation mathématique \(k = k + 1\) n'a évidemment pas de sens.
 
-Il convient également de distinguer l'opérateur d'affectation `=` et le signe `=` qui intervient dans les arguments nommés des appels de fonction (cf. [syntaxe Python](syntaxe_Python.html)).  Ainsi, dans ce qui suit, il n'est aucunement question de considérer que la valeur $20$ est affectée à une variable `num` :
+Il convient également de distinguer l'opérateur d'affectation `=` et le signe `=` qui intervient dans les arguments nommés des appels de fonction (cf. [syntaxe Python](python-syntax.md)).  Ainsi, dans ce qui suit, il n'est aucunement question de considérer que la valeur $20$ est affectée à une variable `num` :
 
 ```Python
 np.linspace(0, 1, num=20)
