@@ -64,6 +64,9 @@ from numpy import pi as π
 
 Occasionnellement, on choisira d'importer tous les objets (mais cela est peu recommandé):
 
+```{autolink-skip}
+```
+
 ```Python
 from sympy import *
 ```
@@ -101,7 +104,9 @@ NumPy](numpy.md).
 - [Pandas](https://pandas.pydata.org/docs/) fournit les objets `Series` et
   `DataFrame` pour importer, nettoyer, sélectionner, regrouper et agréger des
   données tabulaires avec des lignes et colonnes étiquetées.
-- [random]() TODO
+- [random](https://docs.python.org/3/library/random.html) génère des nombres
+  pseudo-aléatoires, souvent pour réaliser des tests statistiques ou faire de
+  l'optimisation.
 - [`statistics`](https://docs.python.org/3/library/statistics.html), dans la
   bibliothèque standard, propose des statistiques descriptives simples sur des
   données Python ordinaires.

@@ -36,7 +36,7 @@ L'application la plus simple que l'on voit permet de coller aux notations mathé
 import numpy as np
 
 def f(x):
-  '''Returns e^{|sin x|} where x is a number or a 1D NumPy array'''
+    '''Returns e^{|sin x|} where x is a number or a 1D NumPy array'''
     return np.exp(np.abs(np.sin(x)))
 ```
 
