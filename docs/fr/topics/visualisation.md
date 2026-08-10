@@ -17,7 +17,7 @@ Le choix des raccourcis `np` et `plt` est conventionnel.
 * Pour la représentation des fonctions mathématiques, on aura recours à `plt.plot()`.
 * Pour la représentation des données, on aura recours à `plt.scatter()`.
 
-### Représentation d'une fonction mathématique d'une variable
+## Représentation d'une fonction mathématique d'une variable
 
 Soit à représenter graphiquement la fonction
 $$
