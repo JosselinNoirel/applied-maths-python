@@ -6,7 +6,7 @@
 
 Une condition booléenne pose une question dont la réponse vaut *True* ou
 *False*. Par exemple, `x > 0` demande si la valeur de $x$ est strictement
-positive.
+positive. La valeur de tels tests est utilisée notamment dans des [structures de contrôles](control-flow.md).
 
 ## Comparaisons
 

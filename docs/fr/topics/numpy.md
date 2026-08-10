@@ -33,6 +33,8 @@ Cf [Importer des données](data.md).
 [{funcindex}`np.linspace`](../reference/numpy-linspace.md) crée un nombre choisi de points
 régulièrement espacés entre deux bornes :
 
+TODO. Image
+
 ```python
 x = np.linspace(-1, 1, 5)
 ```
