@@ -8,7 +8,7 @@
 
 Les variables Python permettent de stocker des informations dans la mémoire de l'ordinateur pour pouvoir les réutiliser et éventuellement les modifier ultérieurement.
 
-On dit que l'on affecte une variable lorsqu'on attribue une valeur à une variable et on parle d'`{concept}affectation`. Cela se fait à l'aide de l'opérateur `=`.
+On dit que l'on affecte une variable lorsqu'on attribue une valeur à une variable et on parle d'{concept}`affectation`. Cela se fait à l'aide de l'opérateur `=`.
 
 ```Python
 k = 10
@@ -43,11 +43,20 @@ Des noms courts, comme `dat` (pour des données), ou très courts, comme `M`, `S
 
 Des noms plus longs, comme `net_sparsity`, gagnent à expliciter des informations pérennes mais utilisées très ponctuellement. (Techn)
 
-On peut utiliser pour certains paramètres des lettres grecques comme \(\alpha\), \(\Delta\), etc. Pour ce faire, il suffit d'utiliser UTF-8 ou de recourir à un raccourci de Jupyter qui consiste à taper le code LaTeX pour la lettre (par exemple `\Delta`) puis presser la touche TAB. (Cf. [Mathematical expressions](https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols) par Overleaf.) Ces caractères non latins peuvent être mélangés à d'autres lettres `∆x` constituant par exemple un nombre de variable valide.
+On peut utiliser pour certains paramètres des lettres grecques comme `α`, `δ`, etc. Pour ce faire, il suffit d'utiliser UTF-8 ou de recourir à un raccourci de Jupyter qui consiste à taper le code LaTeX pour la lettre (par exemple `\Delta`) puis presser la touche {kbd}`Tab`. (Cf. [Mathematical expressions](https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols) par Overleaf.) Ces caractères non latins peuvent être mélangés à d'autres lettres `∆x` constituant par exemple un nombre de variable valide.
+
+````{note}
+Une utilisation plaisante des caractères grecs se retrouve dans le genre d'expression ci-dessous:
+
+```Python
+π = np.pi
+x, Δx = np.linspace(-π, +π, retstep=True)
+```
+````
 
 ## Portée locale
 
-Une variable créée dans une fonction est une `{concept}variable locale` à cette fonction. Elle n'est pas
+Une variable créée dans une fonction est une {concept}`variable locale` à cette fonction. Elle n'est pas
 accessible après l'appel.  Ainsi la variable `a` définie à l'intérieur de la fonction `f` dans le code qui suit n'interagit-elle d'aucune façon avec la variable `a` à laquelle nous avons affecté la valeur $10$.
 
 ```Python

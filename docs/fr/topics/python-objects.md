@@ -223,6 +223,15 @@ values.append(7.2)
 
 La méthode {funcindex}`list.append` permet de construire petit à petit des listes; par exemple, on pourrait imaginer, dans une boucle [for](control-flow.md), de construire une liste des nombres premiers à mesure qu'on en trouve de nouveaux.
 
+```{important}
+Python n'est pas confortablement équipé pour le calcul vectoriel ou matriciel.
+La [bibliothèque NumPy](numpy.md) fournit les fonctionnalités utiles pour cela.
+
+Contrairement à une liste, un tableau NumPy permet des opérations numériques
+terme à terme: `values**2` élève chaque valeur au carré. Voir la
+[bibliothèque NumPy](numpy.md).
+```
+
 ## Conversions
 
 Les constructeurs de types permettent de convertir un objet lorsque la
@@ -265,7 +274,3 @@ words = s.split(" ")
 ```
 
 Sans argument, `s.split()` traite toute suite d'espaces comme un seul séparateur.
-
-Contrairement à une liste, un tableau NumPy permet des opérations numériques
-terme à terme : `values**2` élève chaque valeur au carré. Voir la
-[bibliothèque NumPy](numpy.md).

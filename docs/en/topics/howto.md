@@ -41,3 +41,52 @@ git diff --check
 should catch most accidental breakage; `git diff --check` catches small Git-level
 whitespace mistakes. Then inspect `_site/index.html` locally if you want a visual
 check.
+
+## Assets
+
+For this repository, the simplest structure is:
+
+```text
+docs/
+├── en/
+│   ├── _static/
+│   │   ├── images/
+│   │   │   └── example.png
+│   │   └── notebooks/
+│   │       └── example.ipynb
+│   └── topics/
+└── fr/
+    ├── _static/
+    │   ├── images/
+    │   │   └── example.png
+    │   └── notebooks/
+    │       └── example.ipynb
+    └── topics/
+```
+
+From a topic page, reference an image with:
+
+```markdown
+![Description of the figure](../_static/images/example.png)
+```
+
+Link a downloadable notebook with:
+
+```markdown
+[Download the example notebook](../_static/notebooks/example.ipynb)
+```
+
+- Commit the assets to Git. GitHub Actions only sees committed files.
+- If an asset is used by both languages, currently the safest approach is to put a copy under both `docs/en/_static/` and `docs/fr/_static/`.
+- Use lowercase filenames without spaces, for example `fourier-spectrum.png`.
+- Compress large PNG files and notebooks where practical; repository assets are downloaded by site visitors.
+- Note that the notebook will be offered as a download. Sphinx is not currently configured to render `.ipynb` files as documentation pages.
+
+After adding an asset, you can check it locally with:
+
+```bash
+source .venv/bin/activate
+make docs
+```
+
+Then open `_site/index.html` and test the image or download link locally. If it works there and the asset is committed, it should work on GitHub Pages as well.

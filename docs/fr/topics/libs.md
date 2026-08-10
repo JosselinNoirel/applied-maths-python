@@ -56,6 +56,18 @@ from math import exp, log
 result = exp(1.0) + log(2.0)
 ```
 
+Un dernier exemple, en outre, importe l'objet sous un autre nom
+
+```Python
+from numpy import pi as π
+```
+
+Occasionnellement, on choisira d'importer tous les objets (mais cela est peu recommandé):
+
+```Python
+from sympy import *
+```
+
 ## Bibliothèques classiques
 
 ### Mathématiques et calcul scientifique
@@ -83,15 +95,16 @@ NumPy](numpy.md).
 
 ### Traitement des données et statistiques
 
-- [`statistics`](https://docs.python.org/3/library/statistics.html), dans la
-  bibliothèque standard, propose des statistiques descriptives simples sur des
-  données Python ordinaires.
 - [NumPy](https://numpy.org/doc/stable/reference/routines.statistics.html)
   calcule efficacement sommes, moyennes, écarts-types, quantiles et autres
   résumés sur des tableaux numériques homogènes.
-- [pandas](https://pandas.pydata.org/docs/) fournit les objets `Series` et
+- [Pandas](https://pandas.pydata.org/docs/) fournit les objets `Series` et
   `DataFrame` pour importer, nettoyer, sélectionner, regrouper et agréger des
   données tabulaires avec des lignes et colonnes étiquetées.
+- [random]() TODO
+- [`statistics`](https://docs.python.org/3/library/statistics.html), dans la
+  bibliothèque standard, propose des statistiques descriptives simples sur des
+  données Python ordinaires.
 - [`scipy.stats`](https://docs.scipy.org/doc/scipy/reference/stats.html) fournit
   des lois de probabilité, des statistiques descriptives, des tests et plusieurs
   méthodes d'estimation.
@@ -103,7 +116,7 @@ NumPy](numpy.md).
 
 - [Matplotlib](https://matplotlib.org/stable/) est la bibliothèque de référence
   pour construire et personnaliser des graphiques scientifiques en Python.
-- [pandas](https://pandas.pydata.org/docs/user_guide/visualization.html) propose
+- [Pandas](https://pandas.pydata.org/docs/user_guide/visualization.html) propose
   des méthodes de tracé directement associées aux `Series` et `DataFrame` ;
   elles utilisent généralement Matplotlib.
 - [seaborn](https://seaborn.pydata.org/) fournit une interface de plus haut

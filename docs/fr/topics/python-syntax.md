@@ -8,18 +8,6 @@ Python lit généralement un programme ligne par ligne. Chaque ligne contient un
 instruction complète, sauf lorsqu'une parenthèse ouverte indique que
 l'instruction continue sur la ligne suivante.
 
-## Commentaires
-
-Un `#` (*croisillon* ou *hash sign*) initie sur la ligne un
-{concept}`commentaire`, c'est-à-dire une portion de code qui n'est pas lue par
-Python mais peut accueillir une annotation destinée au lecteur.
-
-```python
-x = x + 1 # Increment x by one
-```
-
-Un bon commentaire explique l'intention du calcul plutôt que de répéter en mots le code. (L'exemple précédent est donc mauvais car le code est tout à fait transparent.)
-
 ## Contenu d'un programme
 
 Un programme consiste en une suite d'**instructions**. Ces instructions permettent de
@@ -36,6 +24,18 @@ Un programme consiste en une suite d'**instructions**. Ces instructions permette
         [fonctions](user-functions.md)),
 -   on peut trouver des [structures de contrôle](control-flow.md)
     (if-then-else, boucles for ou while).
+
+## Commentaires
+
+Un `#` (*croisillon* ou *hash sign*) initie sur la ligne un
+{concept}`commentaire`, c'est-à-dire une portion de code qui n'est pas lue par
+Python mais peut accueillir une annotation destinée au lecteur.
+
+```python
+x = x + 1 # Increment x by one
+```
+
+Un bon commentaire explique l'intention du calcul plutôt que de répéter en mots le code. (L'exemple précédent est donc mauvais car le code est tout à fait transparent.)
 
 ## Opérateurs arithmétiques
 

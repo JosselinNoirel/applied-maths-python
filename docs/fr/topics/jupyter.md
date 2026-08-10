@@ -70,6 +70,10 @@ Si on sélectionne plusieurs cellules, on peut copier ou couper plusieurs cellul
 
 - {kbd}`M` fusionne toutes les cellules en une seule cellule.
 
+Pour diviser une cellule en deux:
+
+- {kbd}`Ctrl` + {kbd}`Shift` + {kbd}`-` fusionne une seule cellule en deux cellule.
+
 En mode édition, {kbd}`Maj`+{kbd}`Entrée` exécute la cellule et sélectionne la
 suivante. Les raccourcis peuvent varier légèrement entre JupyterLab et le
 Notebook classique ; consultez la palette de commandes de votre interface.
