@@ -25,6 +25,7 @@ General information about Python syntax:
 - [User-defined variables](topics/variables.md)
 - [User-defined functions](topics/user-functions.md)
 - [Python objects: numbers, strings, lists and arrays](topics/python-objects.md)
+- [Python libraries](topics/libs.md)
 - [The NumPy library and array calculations](topics/numpy.md)
 - [Graphs and visualisation](topics/visualisation.md)
 - [Common functions: Python, NumPy and Matplotlib](topics/common-functions.md)
@@ -37,11 +38,17 @@ General information about Python syntax:
 
 ## Applied mathematics
 
+- [Importing data](topics/data.md)
 - [Systems of linear equations](topics/systems-of-equations.md)
 - [Numerical integration](topics/integration.md)
 - [Ordinary differential equations](topics/ordinary-differential-equations.md)
 - [Interpolation](topics/interpolation.md)
 - [Fourier transforms and the FFT](topics/fourier-transform.md)
+
+## Problems
+
+- [Common errors](topics/common-errors.md)
+- [Debugging a program](topics/debug.md)
 
 ```{toctree}
 :hidden:
@@ -54,12 +61,16 @@ Python syntax <topics/python-syntax>
 Variables <topics/variables>
 Functions <topics/user-functions>
 Objects <topics/python-objects>
+Libraries <topics/libs>
 NumPy <topics/numpy>
+Data <topics/data>
 Visualisation <topics/visualisation>
 Common functions <topics/common-functions>
 Booleans <topics/boolean-conditions>
 Control flow <topics/control-flow>
 Errors <topics/common-errors>
+Debugging <topics/debug>
+Help <topics/help>
 Good practice <topics/good-practice>
 Basic maths <topics/basic-mathematics>
 Statistics <topics/basic-statistics>
