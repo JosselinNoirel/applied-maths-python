@@ -43,7 +43,7 @@ Consulter la page exposant [comment modifier la documentation](topics/howto.md).
 ### Algèbre
 
 - [Matrices et vecteurs](topics/matrix.md)
-- [Matrices et vecteurs](topics/lineqns.md)
+- [Systèmes d'équations linéaires](topics/lineqns.md)
 
 ### Analyse
 
@@ -84,7 +84,10 @@ Aide <topics/help>
 Bonnes pratiques <topics/good-practice>
 Maths élémentaires <topics/basic-mathematics>
 Statistiques <topics/basic-statistics>
-Systèmes linéaires <topics/systems-of-equations>
+Matrices et vecteurs <topics/matrix>
+Systèmes linéaires <topics/lineqns>
+Fonctions d'une variable <topics/fun1var>
+Introduction aux systèmes linéaires <topics/systems-of-equations>
 Intégration <topics/integration>
 EDO <topics/ordinary-differential-equations>
 Interpolation <topics/interpolation>

@@ -22,7 +22,7 @@ extensions = [
 
 source_suffix = {".md": "markdown"}
 root_doc = "index"
-exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
+exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", "**/.ipynb_checkpoints"]
 
 myst_enable_extensions = [
     "colon_fence",
