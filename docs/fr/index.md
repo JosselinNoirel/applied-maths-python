@@ -40,6 +40,14 @@ Consulter la page exposant [comment modifier la documentation](topics/howto.md).
 
 ## Mathématiques appliquées
 
+### Algèbre
+
+- [Matrices et vecteurs](topics/matrix.md)
+- [Matrices et vecteurs](topics/lineqns.md)
+
+### Analyse
+
+- [Visualiser une fonction d'une variable](topics/fun1var.md)
 - [Importer des données](topics/data.md)
 - [Systèmes d'équations linéaires](topics/systems-of-equations.md)
 - [Intégration numérique](topics/integration.md)

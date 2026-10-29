@@ -4,7 +4,7 @@
 <p class="language-switch"><a href="../../en/topics/howto.html">English</a></p>
 ```
 
-La plupart des modifications de contenu ne nécessitent que d'éditer les fichiers
+Cette page est organisée comme un projet RStudio et les pages sont préparées via GitHub. La plupart des modifications de contenu ne nécessitent que d'éditer les fichiers
 Markdown dans `docs/en/` et `docs/fr/`.
 
 - Conservez des chemins correspondants pour les pages anglaises et françaises,

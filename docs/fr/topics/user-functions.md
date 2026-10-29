@@ -16,14 +16,14 @@ Il est possible (et recommandé d'inclure une {index}`docstring`) documentant la
 
 ```python
 def kinetic_energy(mass, velocity):
-    """Return 1/2 m v²."""
+    """Return 1/2 m v^2."""
     return 0.5 * mass * velocity**2
 
 kinetic_energy(2, 3)
 ```
 
 Le résultat est `9.0`. Les paramètres comme `mass` sont locaux à la fonction. La chaîne de caractère
-`"""Return 1/2 m v²."""` fournit la documentation docstring de la fonction.
+`"""Return 1/2 m v^2."""` fournit la documentation docstring de la fonction.
 
 L'indentation délimite le corps de la fonction. Sans elle, Python ne peut pas
 déterminer quelles instructions appartiennent à la définition.

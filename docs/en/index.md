@@ -4,9 +4,11 @@
 <p class="language-switch"><a href="genindex.html">Index</a> · <a href="../fr/">Français</a></p>
 ```
 
-This site is a practical reference for the Python tools used in a first applied
-mathematics course. Start with the programming pages, then use the topic and
-function pages whenever you need a reminder.
+This site is a practical reference for the Python tools used in applied
+mathematics courses taught at CNAM:
+
+- [UTC101 “Applied Mathematics”](https://www.cnam.fr/formation/energie-electricite/energie/mathematiques-appliquees-mathematiques-informatique-methodes-numeriques)
+- USSE10_3 “Fourier Analysis”, part of [Engineering Sciences S1](https://www.cnam.fr/formation/sciences-pour-lingenieur-s1)
 
 The material is available under the [CC BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/).
 
@@ -19,25 +21,34 @@ See [how to edit these pages](topics/howto.md).
 
 ## Programming in Python
 
-General information about Python syntax:
-
 - [Python syntax: instructions, operators and calls](topics/python-syntax.md)
+- [Python objects: numbers, strings, lists and arrays](topics/python-objects.md)
+- [Boolean conditions and comparisons](topics/boolean-conditions.md)
+- [Common functions](topics/common-functions.md)
 - [User-defined variables](topics/variables.md)
 - [User-defined functions](topics/user-functions.md)
-- [Python objects: numbers, strings, lists and arrays](topics/python-objects.md)
-- [Python libraries](topics/libs.md)
-- [The NumPy library and array calculations](topics/numpy.md)
-- [Graphs and visualisation](topics/visualisation.md)
-- [Common functions: Python, NumPy and Matplotlib](topics/common-functions.md)
-- [Boolean conditions and comparisons](topics/boolean-conditions.md)
 - [Control structures: `for`, `while` and conditions](topics/control-flow.md)
-- [Common errors](topics/common-errors.md)
+- [Python libraries](topics/libs.md)
+
+## Libraries
+
+- [The NumPy library and array calculations](topics/numpy.md)
+- [Common NumPy and Matplotlib functions](topics/common-functions.md)
+- [Graphs and visualisation](topics/visualisation.md)
 - [Good programming practice](topics/good-practice.md)
 - [Basic mathematical operations](topics/basic-mathematics.md)
 - [Basic statistics](topics/basic-statistics.md)
 
 ## Applied mathematics
 
+### Algebra
+
+- [Matrices and vectors](topics/matrix.md)
+- [Systems of linear equations](topics/lineqns.md)
+
+### Analysis
+
+- [Plotting a function of one variable](topics/fun1var.md)
 - [Importing data](topics/data.md)
 - [Systems of linear equations](topics/systems-of-equations.md)
 - [Numerical integration](topics/integration.md)
@@ -74,7 +85,10 @@ Help <topics/help>
 Good practice <topics/good-practice>
 Basic maths <topics/basic-mathematics>
 Statistics <topics/basic-statistics>
-Linear systems <topics/systems-of-equations>
+Matrices and vectors <topics/matrix>
+Linear systems <topics/lineqns>
+Functions of one variable <topics/fun1var>
+Linear system overview <topics/systems-of-equations>
 Integration <topics/integration>
 ODEs <topics/ordinary-differential-equations>
 Interpolation <topics/interpolation>
