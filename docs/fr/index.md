@@ -44,15 +44,21 @@ Consulter la page exposant [comment modifier la documentation](topics/howto.md).
 
 - [Matrices et vecteurs](topics/matrix.md)
 - [Systèmes d'équations linéaires](topics/lineqns.md)
+- [Systèmes d'équations linéaires](topics/systems-of-equations.md)
 
 ### Analyse
 
 - [Visualiser une fonction d'une variable](topics/fun1var.md)
-- [Importer des données](topics/data.md)
-- [Systèmes d'équations linéaires](topics/systems-of-equations.md)
-- [Intégration numérique](topics/integration.md)
+- [Intégration numérique d'une fonction](topics/integration.md)
 - [Équations différentielles ordinaires](topics/ordinary-differential-equations.md)
 - [Interpolation](topics/interpolation.md)
+
+### Statistiques
+
+- [Importer des données](topics/data.md)
+
+### Transformation de Fourier
+
 - [Transformées de Fourier et FFT](topics/fourier-transform.md)
 
 ## Problèmes

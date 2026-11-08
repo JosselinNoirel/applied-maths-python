@@ -15,13 +15,13 @@ import numpy as np
 
 x = np.linspace(-2, 2, 21)
 y = np.linspace(-1, 1, 11)
-X, Y = np.meshgrid(x, y)
+X, Y = np.meshgrid(x, y, indexing='ij')
 Z = X**2 + Y**2
 ```
 
-Avec l'indexation cartésienne `indexing="xy"` utilisée par défaut, `X`, `Y` et
-`Z` ont la forme `(len(y), len(x))`. Utilisez `indexing="ij"` lorsque l'ordre des
-axes du tableau doit suivre celui des coordonnées fournies.
+Utilisez `indexing='ij'` lorsque l'ordre des axes du tableau doit suivre celui des coordonnées fournies;
+avec l'indexation cartésienne `indexing='xy'` utilisée par défaut, `X`, `Y` et
+`Z` ont la forme `(len(y), len(x))` (ce qui peut surprendre).
 
 Voir la [référence officielle NumPy](https://numpy.org/doc/stable/reference/generated/numpy.meshgrid.html).
 

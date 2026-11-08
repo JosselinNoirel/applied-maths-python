@@ -26,7 +26,7 @@ pour chaque élément, sans boucle explicite.
 
 ```python
 value = f(1.0)
-values = f(np.array([0.0, 1.0, 2.0]))
+values = f([0.0, 1.0, 2.0])
 ```
 
 Avant de choisir les valeurs de l'argument, vérifiez le domaine de définition :
@@ -44,18 +44,13 @@ puis construisez une grille de valeurs avec
 ```python
 import matplotlib.pyplot as plt
 
-t = np.linspace(0, np.pi, 200)
-fig, ax = plt.subplots()
-ax.plot(t, f(t))
-ax.set_xlabel("t")
-ax.set_ylabel("f(t)")
-ax.grid(True)
-plt.show()
+t = np.linspace(0, np.pi, num=200)
+plt.plot(t, f(t))
 ```
 
 Ici, `t` contient 200 points régulièrement espacés entre $0$ et $\pi$,
 bornes comprises. `f(t)` contient les 200 valeurs correspondantes, et
-`ax.plot` relie les points par des segments.
+`plot` relie les points par des segments.
 
 Pour une fonction variant rapidement, augmentez le nombre de points et
 comparez les tracés obtenus. Un graphique peut manquer une oscillation ou un

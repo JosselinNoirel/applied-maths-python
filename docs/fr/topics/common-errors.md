@@ -133,7 +133,7 @@ produire OverflowError ou un RuntimeWarning (*overflow encountered in exp* par e
 message signale souvent qu'il faut revoir l'échelle, les unités ou la formulation
 mathématique du calcul et pas seulement masquer l'avertissement ou abandonner.
 
-## Boucles infinie
+## Boucles infinies
 
 Si vous mettez en place une boucle `while`, le programme dépend d'une condition dont il faut absolument se convaincre qu'elle va devenir fausse.
 
@@ -193,3 +193,9 @@ pi * 3
 renvoie-t-elle un tuple de 6 nombres $(3, 14, 3, 14, 3, 14)$. La fonction NumPy sinus `np.sin()` considère que le tuple peut être traité comme un tableau NumPy et retourne un tableau composé du sinus de chacun des deux nombres.
 
 Des opérations numériques comme `pi + 3` ou `pi**2` vont donner une erreur `TypeError`.
+
+## ComplexWarning: quand une fonction n'aime pas les complexes
+
+Certaines fonctions n'acceptent que des réels ou des fonctions réelles;
+elles peuvent de temps en temps donner un avertissement `ComplexWarning` plutôt qu'une erreur `TypeError`.
+La fonction `quad` de SciPy affiche cet avertissement par exemple quand une fonction ayant une composante imaginaire lui est passée sans l'argument `complex_func=True`.

@@ -14,16 +14,18 @@ Renvoie `(valeur, erreur_estimée)`.
 import numpy as np
 from scipy.integrate import quad
 
-value, error = quad(np.sin, 0, np.pi)
+def f(x):
+    return  np.exp(-x**2)
+
+value, error = quad(f, 0, 1)
 ```
 
-Ici, `valeur` est proche de `2`. L'intégrande doit accepter un scalaire comme
-premier argument. Des paramètres fixes supplémentaires peuvent être transmis
-avec `args`.
+L'intégrande (la fonction $f$ ou une fonction anonyme lambda) doit accepter un scalaire comme premier argument.
+Des paramètres fixes supplémentaires peuvent être transmis avec `args`.
 
-Un ancien notebook peut utiliser `scipy.integrate.trapz` ou `simps`. Dans un code
-actuel, utilisez `numpy.trapezoid` ou `scipy.integrate.simpson` pour des données
-échantillonnées, et `quad` pour une fonction appelable.
+Les bornes peuvent être finies ou infinies (`np.inf`).
+
+Si la fonction $f$ retourne un résultat complexe (avec une composante imaginaire), l'argument `complex_func=True` doit être passé.
 
 Voir la [référence officielle SciPy](https://docs.scipy.org/doc/scipy/reference/integrate.html).
 
