@@ -131,14 +131,6 @@ et son sens dépend de leur ordre.
 
 ## Changement de base
 
-Pour créer un vecteur unitaire à partir d'un vecteur quelconque $e$ (non nul),
-on calcule $e = e/\|e\|$:
-
-```Python
-e = np.array([1, 2, 1])
-e = e/np.linalg.norm(e)
-```
-
 Lorsque l'on cherche à exprimer les composantes (coordonnées) d'un vecteur $x$
 dans une base orthonormée $(e_1, e_2, \dots)$
 
@@ -155,3 +147,39 @@ $$
 $$
 
 où $x_i = x \cdot e_i/\|e_i\|$.
+
+En effet, pour créer un vecteur unitaire à partir d'un vecteur quelconque $e$ (non nul),
+on calcule $e = e/\|e\|$:
+
+```Python
+e = np.array([1, 2, 1])
+e = e/np.linalg.norm(e)
+```
+
+## Produit d'une matrice par un vecteur
+
+Si la matrice $A$ est de forme $m \times n$, le vecteur $u$ doit appartenir à $\mathbb{R}^m$ pour qu'on puisse calculer
+le produit matriciel $A \cdot u$.
+
+Ce produit matriciel s'écrit `A @ u` avec Python et donne un vecteur $v$ de $\mathbb{R}^m$.
+
+La matrice `A` définie au début de la page a quatre lignes et trois
+colonnes. Elle transforme donc un vecteur à trois composantes en un
+vecteur à quatre composantes.
+
+```python
+u = np.array([1, 2, 3])
+v = A @ u
+```
+
+Pour une matrice $A$ fixée, $u \mapsto A \cdot u$ est une
+{concept}`application linéaire` de $\mathbb{R}^n$ dans $\mathbb{R}^m$.
+
+Résoudre $Ax=b$ revient à chercher un vecteur $x$ dont l'image est $b$.
+Si l'application est injective, il y a au plus une solution pour chaque
+$b$. Cette solution existe lorsque $b$ appartient à l'image de $A$,
+autrement dit lorsque $b$ est une combinaison linéaire de ses colonnes.
+
+Si `A` est carrée et injective, il existe une solution unique pour tout
+$b$, que l'on calcule avec `np.linalg.solve()`. Pour le cas
+rectangulaire, voir les [systèmes d'équations linéaires](lineqns.md).
