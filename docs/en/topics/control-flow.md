@@ -30,6 +30,18 @@ for n in range(5):
     squares.append(n**2)
 ```
 
+````{note}
+A **list comprehension** builds a list in a single expression.
+The loop above can also be written as:
+
+```python
+squares = [n**2 for n in range(5)]
+```
+
+An optional condition filters the values:
+`[n**2 for n in range(5) if n % 2 == 0]`.
+````
+
 When both the position and the value are needed, use `enumerate` rather than a
 manually updated counter:
 

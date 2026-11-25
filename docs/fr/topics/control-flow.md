@@ -91,6 +91,18 @@ Dans cet exemple, {funcindex}`range` produit une séquence d'entiers $k$ de $0$ 
 la méthode `append` permet d'aggréger chaque carré dans la list `squares`
 (cf. [Objets Python](python-objects.md)).
 
+````{note}
+Une **compréhension de liste** construit une liste en une seule expression.
+La boucle précédente peut aussi s'écrire :
+
+```python
+squares = [k**2 for k in range(5)]
+```
+
+Une condition facultative permet de filtrer les valeurs :
+`[k**2 for k in range(5) if k % 2 == 0]`.
+````
+
 Il est fréquent que `range` prenne pour argument la longueur d'une liste ou d'un tableau
 
 ```Python

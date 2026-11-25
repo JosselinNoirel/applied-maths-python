@@ -134,9 +134,96 @@ plt.scatter(x, np.sin(x))
 Ce genre de représentation est utile notamment lorsque l'on représente des données
 (cf. [Importer des données](data.md)). Néanmoins, la bibliothèque Pandas devient progressivement plus indiquée.
 
+## Représenter un spectre
+
+Un spectre est plus naturellement représenté à l'aide d'un graphique tel que:
+
+```python
+k = np.arange(-10, +11)
+c = 1/(1 + k**2)
+
+plt.stem(k, c)
+```
+
 ## Champs de vecteurs
 
-TODO.
+Plus compliqué à mettre en œuvre, en voici un exemple que nous détaillons
+
+```python
+x = np.linspace(-5, 5, 20)
+y = np.linspace(-5, 5, 20)
+X, Y = np.meshgrid(x, y)
+
+U = -Y
+V = +X
+
+plt.quiver(X, Y, U, V)
+plt.streamplot(X, Y, U, V)
+```
+
+Le code permet de représenter un champ de vecteurs en deux dimensions.
+
+### Construction de la grille
+
+```python
+x = np.linspace(-5, 5, 20)
+y = np.linspace(-5, 5, 20)
+X, Y = np.meshgrid(x, y)
+```
+
+- `x` et `y` sont deux tableaux de 20 valeurs régulièrement espacées entre -5 et 5. Ils sont de dimension `(20,)`.
+- `np.meshgrid()` construit deux tableaux bidimensionnels `X` et `Y`, de dimensions `(20, 20)`, qui donnent les coordonnées de 400 points du plan.
+
+### Définition du champ de vecteurs
+
+```python
+U = -Y
+V = +X
+```
+
+On définit ici le champ :
+
+$$
+\vec{F}(x,y)=
+\begin{pmatrix}
+-y\\
+x
+\end{pmatrix}
+$$
+
+- `U` contient les composantes horizontales des vecteurs.
+- `V` contient leurs composantes verticales.
+
+Ces deux tableaux sont également de dimension `(20, 20)`.
+
+### Représentation graphique
+
+```python
+plt.quiver(X, Y, U, V)
+```
+
+Pour chaque point $(X_{i,j}, Y_{i,j})$, cette instruction dessine une flèche de composantes $(U_{i,j}, V_{i,j})$`.
+
+On peut superposer le diagramme de flux avec:
+
+```python
+plt.streamplot(X, Y, U, V)
+```
+
+### Adaptation à un autre champ
+
+Il suffit de modifier les expressions de $U$ et $V$, en conservant la grille.
+
+Par exemple :
+
+| Champ mathématique | Code Python |
+| --- | --- |
+| $(x,y)$ | `U = X` ; `V = Y` |
+| $(-y,x)$ | `U = -Y` ; `V = X` |
+| $(-x^2,xy)$ | `U = -X**2` ; `V = X*Y` |
+
+$X$ et $Y$ définissent les points où l'on représente le champ;
+$U$ et $V$ définissent les vecteurs associés à ces points.
 
 Références détaillées :
 
